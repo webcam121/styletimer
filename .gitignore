@@ -1,0 +1,5 @@
+﻿application/logs/*
+assets/uploads/*
+.htaccess
+.env
+application/config/constants.php

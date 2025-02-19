@@ -1,0 +1,43 @@
+@import "mani_layout.css";
+@import "mani_style.css";
+@import "bootstrap.min.css";
+body{
+	max-width: 460px;
+	margin: 20px auto;
+	border: 1px solid #999;
+	padding: 20px !important;
+}
+#popup-v11 p{
+	margin:0rem;
+}
+.modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+}
+.d-flex {
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+.color333 {
+    color: #333333;
+}
+.fontfamily-medium {
+    font-family: 'Poppins-Medium';
+}
+.font-size-12 {
+    font-size: 0.75rem;
+}
+.color999 {
+    color: #999999;
+}
+.fontfamily-regular {
+    font-family: 'Poppins-Regular';
+}
+.display-ib {
+    display: inline-block;
+}
+.text-right {
+    text-align: right !important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}

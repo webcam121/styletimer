@@ -1,0 +1,4696 @@
+@media (max-width: 1199px){
+    .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-7.mobile-mb-20{
+        border-right: none;
+    }
+    .align-requr-bottom{
+        padding-top: 15px;
+    }
+    body.modal-open,
+    body.modal-open .header .navbar-brand + .d-inline-flex.ml-auto.align-self-center {
+        padding-right: 0px !important;
+    }
+    
+    #chg_fullClass.relative.mb-60.bgwhite.box-shadow1.around-20.mt-20{
+        padding-top: 20px !important;
+    }
+    #chg_fullClass .fc-toolbar.fc-header-toolbar {
+        margin-bottom: 0.5rem !important;
+        background: #fff;
+        height: auto;
+        position: sticky;
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        top: auto;
+        z-index: 9;
+    }
+    #chg_fullClass .v_custome_button{
+        position: sticky !important;
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        top: auto;
+        float: right;
+    }
+    #chg_fullClass #employeeForm {
+        position: sticky;
+        position: -webkit-sticky;
+        position: -moz-sticky;
+        position: -ms-sticky;
+        position: -o-sticky;
+        top: auto;
+        z-index: 99;
+    }
+    #chg_fullClass #employeeForm .calender-droupdown,
+    #chg_fullClass .fc-toolbar.fc-header-toolbar .fc-left,
+    #chg_fullClass .v_custome_button .dropdown,
+    #chg_fullClass .fc-toolbar.fc-header-toolbar .fc-right{
+        top: auto;
+    }
+    /* .fc-day-header.fc-widget-header.fc-today div {
+        max-width: 60px;
+        font-size: 22px !important;
+        left: 22px;
+    }
+    .fc-day-header.fc-widget-header,
+    .fc-day-header.fc-widget-header.fc-today {
+        font-size: 22px !important;
+    }
+    .fc-day-header.fc-widget-header sup,.fc-day-header.fc-widget-header.fc-today div sup{
+        font-size: 12px !important;
+    }
+    .fc-day-header.fc-widget-header.fc-today div::after{
+        left: -37px;
+        height: 32px;
+        width: 32px;
+    } */
+}
+
+@media (max-width:1350px){
+    .right-side-dashbord #submitBookNow .v_overflow_scroll .overflow_elips{
+        padding-right: 204px;
+    }
+    #merchantBookingForm .card-detail-new .deatail-box-right{
+        position: absolute;
+        right: 0;
+    } 
+    .card-detail-new.v_overflow_scroll.custom_scroll .border-b.d-flex.py-3.pl-3.bookingSelect2>.d-flex {
+        min-width: auto;
+        position: relative;
+    }    
+    .card-detail-new .border-b.d-flex.py-3.pl-3.bookingSelect2{
+        align-items: flex-start !important;
+    }
+    .card-detail-new .deatail-box-right{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+    .max-width1350{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 1.5rem;
+    }
+    #setting-toggle-popup .my-table .table td,
+    #setting-toggle-popup .my-table .table th{
+        white-space: normal !important;
+    }
+}
+
+@media (min-width: 576px){
+    .new-modal-full-page .modal-dialog,
+    #add-service-modal .modal-dialog,
+    #add-employee-modal .modal-dialog,
+    #booking-details-modal .modal-dialog{
+        max-width: 750px;
+    }
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 300px) and (max-width: 575px) {
+.button-width-50{
+    display: block;
+}
+.button-width-50 .btn{
+    width: 100% !important;
+    margin-bottom:10px;
+}    
+.colcu-sec1 .form-group {
+    display: block;
+}    
+.colcu-sec1 .form-group .calcu-label{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.width-400 {
+    width: 260px;
+}  
+.modal-dialog{
+    margin: .5rem auto;
+}
+.right-side-dashbord #submitBookNow .deatail-box-right {
+    flex: 0;
+}   
+.right-side-dashbord #submitBookNow .v_overflow_scroll .overflow_elips {
+    padding-right: 0;
+} 
+#right-side-box-accordian4 a.accordion-toggle.color333.fontfamily-medium.font-size-16.a_hover_333 {
+    display: block !important;
+}   
+#right-side-box-accordian4 a.accordion-toggle.color333.fontfamily-medium.font-size-16.a_hover_333 .deatail-box-left+span{
+    float: none !important;
+    display: block;
+    text-align: right;
+    margin-right: -15px !important;
+} 
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select.arrow-none .dropdown-toggle,
+.card-detail-new.v_overflow_scroll.custom_scroll .relative.mr-1 label.color999.fontfamily-light.font-size-12.mb-1,
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select .dropdown-toggle {
+    width: 85px !important;
+}
+.right-side-box .col-12.col-sm-3.col-md-4.col-lg-3.pl-0.text-right{
+    text-align: left !important;
+    padding-left: 1rem !important;
+}
+.footer_section .relative.pl-35.pr-35{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}    
+.termcondi_section1.pt-35 .font-size-34 {
+    font-size: 20px;
+    margin-top: 10px;
+    word-break: break-word;
+}   
+.termcondi_section2 h1{
+    font-size: 20px !important;
+    word-break: break-word;
+} 
+form#submitBookNow .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after,
+form#merchantBookingForm .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after{
+display: none;
+}
+.termcondi_section1 .font-size-30,
+.termcondi_section2 .font-size-30{
+    font-size: 22px;
+}     
+.card-detail-new .border-b.d-flex.py-3.pl-3.bookingSelect2{
+    display: block !important;
+}
+.bgwhite.border-radius4.box-shadow1.h-100 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6, 
+.bgwhite.border-radius4.box-shadow1.h-100 .col-6.col-sm-3.col-md-3.col-lg-3.col-xl-3{
+    height:auto !important
+}    
+.first_pop {
+    left: 100px !important;
+}
+.test_popup+.border-b.px-3{
+    padding: 0rem !important;
+}  
+.second_pop {
+    padding-top: 0px !important;
+    left: 168px !important;
+    top: 55px;
+    position: relative !important;
+    right: auto;
+    display: inline-block;
+} 
+.sevice_provider_section3 #right-side-box-accordian4 .accordion-body {
+    margin-right: -15px;
+}
+#profile_setup .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pl-0 {
+    padding-left: 15px !important;
+}
+.deatail-box-right .color333.font-size-14.fontfamily-medium.mb-0,
+.fontfamily-medium.color333.font-size-14.deatail-box-right.text-right {
+    font-size: 13px;
+}
+.bgwhite.box-shadow1.border-radius4 .round-employee-upload .all_type_upload_file.bgblack18 {
+    bottom: 0rem;
+}  
+.right-side-box .col-12.col-sm-12.col-md-5.col-lg-5.col-xl-5.pl-0 {
+    padding-right: 0px;
+}
+.right-side-box .col-12.col-sm-12.col-md-5.col-lg-5.col-xl-5.pl-0 .upl-gallary-image{
+    width: 100%;
+}
+.right-side-box .col-12.col-sm-12.col-md-5.col-lg-5.col-xl-5.pl-0 .upl-gallary-image img{
+    width: 100% !important;
+}
+#image_demo .cr-boundary{
+    width: auto !important;
+}    
+.home_section1 .width150 {
+    width: 140px;
+}    
+.col-12.col-sm-6.col-md-12.col-lg-6.col-xl-6.pl-2 ,
+.col-12.col-sm-6.col-md-12.col-lg-6.col-xl-6.pr-2 {
+    padding:0rem 1rem!important;
+}   
+.radio-btn .radio-round{
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    line-height: 33px;
+    text-align: center;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-family: 'poppins-medium';
+    background: #DBF4F6;
+    color: #00b3bf;
+}    
+/** layout css **/
+.pt-120 {
+    padding-top: 120px;
+}
+/** header css **/
+.header{
+   height: 70px;
+}
+.header_top{
+   height: 70px;
+}
+.header-container {
+   padding: 0 0px;
+   width: 100%;
+}
+.navbar-toggler {
+    padding: 0rem 0rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    height: 33px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-light .navbar-toggler-icon{
+    height:24px;
+}
+.navbar-brand {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-right: 1rem;
+}
+.cnc_top{
+    padding:0px 15px;
+}
+.navbar-nav.ml-auto .nav-item{
+    padding: 10px 20px !important;
+}
+.navbar-nav.ml-auto .nav-item:first-child{
+    padding: 10px 20px 0px 20px !important;
+}
+.navbar-nav.ml-auto .nav-item:last-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item{
+    padding: 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item:first-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item:last-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.r_l_s_s_h_dekstop{
+    display: none; 
+}
+.r_l_s_s_h_mobile{
+    display: list-item;
+}
+.navbar-collapse{
+   background: #fff;
+   border-top: 1px solid #000;
+}
+.cnc_bottom{
+   background: #fff;
+   border-top: 1px solid #000;
+}
+.header_cnc_bottom_scroll{
+   overflow-x: auto;
+   overflow-y: hidden;  
+}
+.header_cnc_bottom_scroll ul.navbar-nav.mr-auto{
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow-x: auto;
+   overflow-y: hidden;
+}
+.header_cnc_bottom_scroll ul.navbar-nav.mr-auto .nav-item a{
+    white-space: nowrap;
+}
+.cnc_bottom li.nav-item{
+    display: list-item; 
+}
+.alert.alert-success{
+    height:auto;
+}
+.lrmlbo_logo_icon {
+    width: 240px;
+}
+/** footer css **/
+.footer_section .col-xl-6.col-lg-6.col-md-5 .relative.around-25.pl-35.pr-35.text-right{
+    text-align: left !important;
+    padding-top: 0px;
+}
+.d-flex#allsservice{
+    display: block !important;
+}
+.relative.box-5-fill{
+    width: 85px!important;
+    margin: 5px 5px!important;
+    padding: 6px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.box-5-fill:first-child img,
+.box-5-fill:first-child picture {
+    width: 35px;
+    height: 31px;
+}
+.box-5-fill img,
+.box-5-fill picture {
+    width: auto;
+    height: 29px;
+}
+.accordion .accordion-group .accordion-heading.p-3.relative{
+    padding: 0px !important;
+}
+.accordion .accordion-group .accordion-body .d-flex.py-2.pl-3{
+    padding-left: 0rem !important;
+}
+.border-b.d-flex.py-3.pl-3.bookingSelect{
+    padding-left: 0px !important;
+    display: block !important;
+}
+.sevice_provider_section2 .accordion-toggle::after {
+    right: 8px;
+}
+
+.deatail-box-right.d-inline-flex{
+    flex: 40%;
+    display: inline-block !important;   
+    text-align: right;
+}
+.deatail-box-right.d-inline-flex .relative.text-right.width200{
+    width: 100%;   
+    display: block;
+}
+.card-detail-new .deatail-box-right.d-inline-flex .relative.text-right.width200 {
+    width:110px;
+}
+.card-detail-new .deatail-box-right.d-inline-flex.align-items-center{
+    display: inline-flex!important;
+}
+.deatail-box-right.d-inline-flex 
+.btn.btn-border-orange.widthfit2.btn-ml-20{
+    margin-top: 5px !important;
+    min-width: 85px!important;
+    margin-left: 10px;  
+}
+.accordion-inner .d-flex.py-3.pl-3.bookingSelect{
+    padding-left: 0px !important;
+}
+.deatail-box-right.d-inline-flex{
+    flex: 40%;
+    display: inline-block !important;   
+    text-align: right;
+}
+.deatail-box-right.d-inline-flex {
+    flex: 0;
+    display: inline-block !important;
+    text-align: right;
+    padding-right: 0px;
+    width: 100%;
+}
+#selectFilters .border-b.d-flex.p-3.mt-4,#selectFilters .d-flex.p-3{
+    padding: 1rem 0px !important;
+}
+.pl-0.scroll245.custom_scroll.mb-0 h6{
+    font-size: 14px;
+}
+#selectFilters .relative.p-3{
+    padding: 10px 0px !important;
+}
+#selectFilters .relative.p-3 .font-size-16{
+    font-size: 14px ;
+}
+#selectFilters .relative.p-3 .color333.fontfamily-medium.font-size-16.a_hover_333 img.mr-12{
+    margin-right: 6px;
+}
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select .dropdown-toggle,
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select.arrow-none .dropdown-toggle{
+    min-width: auto !important;
+}
+.deatail-box-right.d-inline-flex .relative.text-right.width110,
+.deatail-box-right.d-inline-flex .relative.text-right.width160{
+    width: 160px;   
+}
+.deatail-box-right.d-inline-flex .relative.text-right.width110 
+.fontfamily-medium.color333.font-size-14.mb-0.mt-2,
+.deatail-box-right.d-inline-flex .relative.text-right.width160 
+.fontfamily-medium.color333.font-size-14.mb-0.mt-2{
+    margin-top: 0px !important;
+}
+.deatail-box-right.d-inline-flex.pl-20
+.btn.btn-border-orange.widthfit2.btn-ml-20{
+    margin-top: 5px !important;
+    min-width: 85px!important;
+    margin-left: 10px;  
+}
+.sevice_provider_section3 .box-shadow2.bglightgreen1.pt-30.pb-30 
+.color333.fontfamily-medium.font-size-16.display-ib.pt-3.pl-3{
+    padding: 8px 0 0 0 !important;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.footer_section .col-xl-6.col-lg-6.col-md-5 .relative.around-25.pl-35.pr-35.text-right a.ml-15{
+    margin-left: 0rem;  
+    margin-right: 0.625rem;
+}
+.footer_section .footer_logo_icon{
+    width: 220px;
+    height: auto;   
+}
+/** mid-content css **/
+.home_banner_top_girl_img_block.d-xs-none{
+   display: none;
+}
+.home_section1 .col-xl-12 .relative.pl-45 {
+    padding-left: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home_section1 .col-xl-12 .relative.pl-45 h2.font-size-34,
+.contact-section2 .font-size-34{
+    font-size: 26px;
+}
+.contact-img-box {
+    width: 100%;
+    margin-bottom: 20px;    
+    height: 200px;
+}
+.home_sec1_form_block {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.home_sec2_view_venues_img_block {
+    width: 100%;
+    height: 167px;
+    overflow: hidden;
+}
+.h_sec3_offer_listing_img_block{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+#regular{
+    padding: 0 0 !important;
+}
+.thankyou_top_img_block{
+    width: 100%;
+    height: 140px;
+    overflow: hidden;   
+}
+.thankyou_mid_line_img{
+    width: 100%;
+}
+.booking_confirmation_thankyou-section .font-size-70 {
+    font-size: 40px;
+}
+.booking_confirmation_thankyou-section .mt-50 {
+    margin-top: 20px;
+}
+.booking_confirmation_thankyou-section .font-size-30 {
+    font-size: 20px;
+}
+.booking_confirmation_thankyou-section .font-size-20 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.sevice_provider_section2{
+    padding-bottom:20px;
+}
+.sevice_provider_section2 .border-b.d-flex.p-3{
+    padding:.25rem;
+}
+.sevice_provider_section3 .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pr-5{
+    padding-right:15px !important;
+}
+.sevice_provider_section4 .col-12.col-sm-12.col-md-9.col-lg-9.col-xl-9{
+    margin-top: 1rem;
+}
+.btn.btn-border-orange.btn-small.widthfit2.btn-ml-20,
+.btn.btn-border-orange.widthfit2.btn-ml-20.bookingSelect,
+.btn.btn-small.widthfit2.btn-ml-20.bookingSelect.selectedBtn,
+.btn.widthfit2.btn-ml-20.bookingSelect.selectedBtn{
+    min-width: 90px!important;
+    margin-left:10px;
+    height:36px !important;
+}
+.deatail-box-left{
+    min-width: 100px;
+    width:auto;
+    max-width: 95%;
+}
+.deatail-box-left .color333.font-size-16.fontfamily-medium.mb-0{
+    white-space: normal;
+}
+.deatail-box-right.d-inline-flex.pl-20{
+    padding-left: 0rem;
+}
+.sevice_provider_section2 .border-b.d-flex.p-3{
+    padding-right:0rem;
+}
+.sevice_provider_section2.clear.bgwhite .col-12.col-sm-5.col-md-6.col-lg-6.col-xl-6.text-right.clear{
+    text-align: left!important;
+}
+.sevice_provider_section2.clear.bgwhite .col-12.col-sm-5.col-md-6.col-lg-6.col-xl-6.text-right.clear .pt-30{
+    padding-top:0rem!important;
+}
+.sevice_provider_section2.clear.bgwhite .col-12.col-sm-5.col-md-6.col-lg-6.col-xl-6.text-right.clear .colororange.fontfamily-regular.font-size-16.display-b.mt-20{
+    margin-top:0.625rem!important;
+}
+.service_provider_registration_done_thankyou .font-size-70{
+    font-size: 2.9rem;
+}
+.service_provider_registration_done_thankyou .font-size-30 {
+    font-size: 21px;
+}
+.service_provider_registration_done_thankyou .font-size-20 {
+    font-size: 16px;
+}
+/**/
+.header_logo {
+    width: 140px;
+    height: auto;
+}
+.nav-item.r_l_s_s_h_mobile .user-icon-profile.color333.fontfamily-regular.font-size-14 img,
+.nav-item.r_l_s_s_h_mobile .user-icon-profile.color333.fontfamily-regular.font-size-14 picture{
+    width:25px!important;
+    height:25px !important;
+}
+.nav-item.r_l_s_s_h_mobile .dropdown{
+    padding-top:0px;
+}
+.header-container .navbar-nav .dropdown .dropdown-toggle::after{
+    top:7px!important;
+}
+.sliderImage{
+    width:100%!important;
+}
+.header-container .navbar-nav .dropdown.show .dropdown-toggle::after {
+    top:7px!important;
+}
+.dropdown-menu {
+    position: absolute!important;
+}
+.left-side-arrow{
+    display: block;
+    position: fixed;
+    top:60px;
+    left:0px;
+    z-index: 99;
+    cursor: pointer;
+    border-left: 15px solid #009fa8;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.left-side-dashbord {
+    width: 210px;
+    height: 90vh;
+    position: fixed;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index:110;
+}
+.hide-left-bar {
+    margin-left: -210px !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hide-left-bar a.left-side-arrow{
+    left: 0px !important;
+}
+.input-group .gj-datepicker.gj-datepicker-md.gj-unselectable {
+    width: 74%;
+}
+/**/
+.right-side-dashbord{
+    padding-left:15px !important;
+    padding-right:15px;
+}
+.right-side-dashbord.w-100.pl-30.pr-30, .right-side-dashbord.w-100.pl-30.pr-15{
+    padding-right:15px !important;
+}
+.right-side-dashbord .d-flex.mb-30{
+    display: block !important;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box {
+    display: block;
+    width: 250px;
+    height: 150px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box label{
+    line-height:150px;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box .uploaded-img {
+    width: 100% !important;
+    height: 158px !important;
+}
+.right-side-dashbord .bgwhite.box-shadow1.border-radius4.around-30{
+    padding:1rem;
+}
+.right-side-dashbord .bgwhite.box-shadow1.border-radius4.around-30 .font-size-14{
+    font-size:13px;
+}
+.right-side-dashbord .display-ib.mr-20.ml-30{
+    margin:0rem 0.625rem;
+}
+.footer_section .col-xl-5.col-lg-5 .relative+.relative a img,
+.footer_section .col-xl-5.col-lg-5 .relative+.relative a picture{
+    width:105px;
+}
+.membership_payment_section2.v1 .relative.form-group-mb-50 .gj-datepicker.gj-datepicker-md.gj-unselectable{
+    width:70%!important;
+}
+/*user table*/
+.my-table .table td, .my-table .table th {
+    padding: 15px 8px;
+}   
+.my-table .table td img.mr-3.width30,
+.my-table .table td picture.mr-3.width30{
+    margin-right:0.625rem !important;
+}
+.my-table .table tr td:first-child {
+    padding-left: 20px;
+}
+.my-table .table td .overflow_elips{
+    width:100px;
+}
+.my-table{
+    overflow-x:scroll; 
+}
+.my-table .table{
+    width:1005px;
+}
+.comform-table{
+    overflow-x: scroll;
+}
+.comform-table table.w-100{
+    width:550px!important;
+}
+.comform-table table tr th, .comform-table table tr td {
+    padding: 13px 10px;
+}
+.mobile-mt-20{
+    margin-top:20px;
+}
+.user_booking_conform_section1 .around-40{
+    padding:20px;
+}
+.user_profile_section1 .bgwhite.box-shadow1.border-radius4.around-30{
+    /*margin-top: 50px;*/
+    padding-right:30px;
+}
+.right-side-dashbord.detail {
+    padding-left: 15px;
+}
+.right-side-dashbord.detail .around-40{
+    padding:15px;
+}
+.relative.top-table-droup.d-flex.align-items-center{
+    display: block!important;
+    padding: 20px 20px;
+}
+.relative.top-table-droup.d-flex.align-items-center .display-ib.ml-auto{
+    margin-top: 20px;
+    text-align: right;
+}
+.right-side-dashbord.w-100.pl-30.pr-30{
+    padding:0rem 15px;
+}
+.right-side-box .col-12.col-sm-12.col-md-5.col-lg-4.col-xl-4.pl-0{
+    padding-left:1rem!important;
+    margin-top:0.625rem;
+}
+.right-side-box .accordion-heading .font-size-14{
+    font-size:13px !important;
+}
+
+.relative.vertical-bottom.mt-60.mobile-mb-44{
+    margin-top:1rem;
+    margin-bottom:3rem;
+}
+.relative.vertical-bottom.mt-60.form-group-mb-50{
+    margin-top:0rem;
+}
+.mobile1-mb-40{
+    margin-bottom:40px;
+}
+.spacial-discount p.overflow_elips {
+    width: 175px;
+}
+.right-side-dashbord.w-100.pl-15.pr-15 .around-30.pt-50 {
+    padding: 50px 20px 20px;
+}
+.right-side-dashbord .cursor_pointer.relative.colororange.a_hover_orange.fontfamily-medium.font-size-16{
+    font-size: 14px;
+}
+.right-side-dashbord .input-group.form-group-mb-50{
+    margin-bottom:20px;
+}
+.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.text-right.pt-30{
+    padding-top:0rem;
+    margin-bottom:1rem;
+}
+.image-map {
+    width: 100%;
+}
+.left-side-search {
+    padding: 20px 20px;
+}
+.left-side-search .border-t.border-b.pt-30.pb-30 .checkbox .font-size-14.pl0.color666{
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+#small-slider {
+    width: 241px;
+    margin: 20px auto;
+}
+.height-vh {
+    height: auto;
+}
+.header-container .navbar-nav .dropdown .dropdown-menu.box-shadow3 {
+    box-shadow: 0rem 0rem 0.625rem rgba(98,104,124,.15);
+    border: none;
+    padding: 0.625rem 1rem !important;
+}
+.sevice_provider_section3.clear.pb-30 .box-shadow2.bgwhite.pt-30.pb-30 .d-flex{
+    display: block!important;
+}
+.Select-box{
+    height: auto;
+    width: 95%;
+    padding: 15px;
+}
+.Select-box .col-5.col-sm-6.col-md-6.col-lg-6.col-xl-6.text-right{
+    padding-left: 0rem;
+}
+.user_booking_section1 .relative.around-40.pr-65.box-shadow1.bgwhite.mt-50.mb-80{
+    padding:1.25rem;
+}
+.user_booking_section1 .col-12.col-sm-12.col-md-8.col-lg-8.col-xl-8 .p-3{
+    padding: 1rem 0rem!important;
+}
+.membership-plan-vectore-img{
+    width: 271px;
+    right: unset;
+    margin: 35px auto 0px 0px;
+    left: unset;
+}
+.membership_plan_section1 {
+    background: url(../images/membership_plan_section1_bg.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 539px;
+    position: relative;
+    background-position: center;
+    margin:0 auto;
+}
+.payment-muchin-img{
+    width:240px;
+}
+.membership_plan_section1 .row.pt-90{
+    padding-top:40px;
+}
+.d-flex.membership_white_box{
+    display: block!important;
+    width:100%;
+    height:auto;
+}
+.d-flex.membership_white_box .bgorange{
+    padding:1rem ;
+}
+.d-flex.membership_white_box .relative.pl-25.pr-25.pt-75{
+    padding:30px 15px;
+}
+.membership_plan_section2 .relative.around-35{
+    padding:20px;
+}
+.slider-full-img{
+    height:185px;
+}
+.sevice_provider_section1 .single-slider .slick-next {
+    right: 10px !important;
+}
+.sevice_provider_section1 .single-slider .slick-prev {
+    left: 10px !important;
+}
+.sevice_provider_section1 .font-size-36,
+.sevice_provider_section2 .font-size-36,
+.sevice_provider_section3 .font-size-36,
+.sevice_provider_section4 .font-size-36{
+    font-size: 30px;
+}
+#lrmrb_scroll {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top:20px;
+}
+.login_register_main_left_block{
+    background-image:none;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+}
+.login_register_main_left_block_overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.login_register_main_left_block_overlay .relative.absolute.bottom{
+    display: none;
+}
+.mobile-mb-44{
+    margin-bottom:30px;
+}
+#service_html{
+    overflow-y: scroll; 
+}
+.w-100.small-width-large{
+    width:600px!important;
+}
+.alert.alert-success.absolute.vinay.top.w-100.mt-15.text-center {
+    width:  auto !important;
+    font-size: 12px;
+}
+.relative.align-self-center.d-flex.flex-row.login_register_main_right_block.w-100.mobile-mt-75{
+    margin-top:75px !important;
+}
+.text-center.bgwhite.box-shadow1.mt-50.mb-50 .pr-35.pl-35.pb-50{
+    padding:10px;
+}
+.mobile-none{
+    display: none;
+}
+.card.mobile-none{
+    display: none !important;
+}
+.relative.around-40.pr-65.box-shadow1.bgwhite.mt-60.mb-80{
+    padding: 30px!important;
+}
+.home_section1.bggreengradient.clear.pt-120,
+.home_section1.bggreengradient.clear.pt-84{
+    margin-bottom:0rem;
+}
+.home_section2.clear.pt-40.pb-40{
+    padding-bottom: 30px;
+}
+.home_section2.clear.pt-40.pb-40 .relative.mb-50{
+    margin-bottom:0rem;
+}
+.home_section2 small.fontfamily-regular.font-size-12.colorwhite.mlm-5{
+    display: block;
+    margin-left:0rem;
+}
+.right-side-box .accordion-inner .col-12.col-sm-12.col-md-7.col-lg-7.col-xl-7{
+    margin-top: 1rem;
+}
+.fc-toolbar .fc-right {
+    float: left!important;
+    margin-top: 10px;
+    display: block!important;
+    width:100%;
+    right:auto!important;
+    position: relative!important;
+}
+
+.right-side-dashbord .col-12.col-sm-12.col-md-12.col-lg-7.col-xl-8 .relative.text-center.mt-50.mb-50{
+    margin-top:0rem;
+}
+.user_profile_section1 .bgwhite.box-shadow1.relative.border-radius4.around-30.pr-90.pt-50 .alert.alert-success.absolute.vinay.top.w-100.mt-15.text-center{
+    top:-317px!important;
+}
+.user_profile_section1 .bgwhite.box-shadow1.border-radius4.pt-40.pb-25.text-center.mb-50{
+    margin-bottom:2rem!important;
+}
+.bgwhite.border-radius4.box-shadow1.mb-60.mt-60{
+    margin:50px 0px;
+}
+.fc-toolbar.fc-header-toolbar .fc-left{
+    position: relative;
+}
+.map_view_hide_on_mobile{
+    display: none;
+}
+
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12.pl-0,
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.pl-0{
+   padding-left:1rem!important;    
+}
+
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-4.col-md-4.col-lg-6.col-xl-4.pl-0{
+    padding-left:1rem!important;    
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:first-child,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(3),
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(5){
+    padding-right:8px!important;  
+    padding-left:15px !important;  
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:last-child,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(2),
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(4){
+    padding-left:8px!important;    
+}
+.btn-new.widthfit.float-right{
+    margin-bottom:1rem;
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0,
+#profile-client-view-modal .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0{
+    padding-left:1rem!important;    
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0 .overflow_elips{
+    width: 260px !important
+}
+#profile-client-view-modal p.overflow_elips{
+    width: 233px !important
+}
+#getClientNote{
+    width: 185px;
+}
+.right-side-dashbord.right-side-dashbord-v1 .bgwhite.border-radius4.box-shadow1.p-3{
+    margin-bottom:24px;
+}
+.bgwhite.border-radius4.box-shadow1.pt-20.px-4 .relative.d-flex .select_v {
+    margin: 0.50rem 4px !important;
+    width: 78px!important;
+}
+.v_overflow_scroll .overflow_elips {
+    width: 150px;
+}
+.card-detail-new.v_overflow_scroll .overflow_elips {
+    width: 160px;
+}
+.booknow_new_bottom_line_v.mt-2 .d-flex.bookingSelect.align-items-center{
+    display: block!important;
+}
+.booknow_new_bottom_line_v.mt-2{
+    height:auto;
+}
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right.d-inline-flex .relative.text-right.width200 {
+    width: unset;
+}
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right.d-inline-flex{
+    display: flex !important;
+}
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-right .btn.selectedBtn.widthfit2.btn-ml-20.effect {
+    width: 60% !important;
+    min-width: 60% !important;
+    margin-left:0rem;
+}
+.font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib{
+    font-size: 12px;
+}
+.v_overflow_scroll.custom_scroll{
+    margin-bottom: 20px;
+    padding-right: 25px;
+}
+.right-side-dashbord .v_overflow_scroll.custom_scroll+.relative+.d-flex.mb-30 {
+    display: flex!important;
+}
+.refresh-box-v {
+    width: 300px;
+    padding: 15px;
+    position: absolute;
+    right: -1.5rem;
+}
+.refresh-box-v .height48v.width150v {
+    font-size: 13px;
+    width: 128px!important;
+}
+.new_tab_v.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    padding: 19px 12px 14px 12px;
+}
+#employee-select-time .modal-body.pt-20.mb-10.pl-25.pr-25.relative{
+    padding-right:10px;
+    padding-left:10px;
+}
+#employee-select-time .modal-body.pt-20.mb-10.pl-25.pr-25.relative .width150v {
+    width:110px !important;
+}
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .widthfit180v,
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .width260v {
+    width:190px !important;
+}
+.width48v {
+    width: 30px;
+    height: 30px;
+}
+.bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30{
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    height: auto !important;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .col-12.col-sm-6.col-md-6.col-lg-5.col-xl-5.pr-0{
+    padding-right:15px!important;
+}
+.select_v1{
+    display: flex!important;
+    width: 218px!important;
+    flex: 1;
+    margin:0.50rem auto!important;
+}   
+.v-new-box-page-reting .d-flex{
+    display: block!important;
+}
+.fc-toolbar.fc-header-toolbar .fc-left {
+    right: auto!important;
+    left: 0rem!important;
+    width: 259px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.v-new-box-page-reting .checkbox.mt-0.mb-0{
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.test-slider-v {
+    margin-right:5px;
+    margin-left:2px;
+}
+.right-side-dashbord .font-size-14.fontfamily-regular.colororange.mb-10.text-underline.a_hover_orange.ml-auto{
+    display: block;
+    text-align: right;
+}
+.right-side-dashbord .bgwhite.border-radius4.box-shadow1.py-3.pl-20.pr-20.h-100 .relative.border-b.pb-3 .d-flex{
+    display: block!important;
+}
+.right-side-dashbord .bgwhite.border-radius4.box-shadow1.py-3.pl-20.pr-20.h-100 .relative.border-b.pb-3 .d-flex span{
+    display: inline-block;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-left {
+    right: auto!important;
+    left: 0rem!important;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.fc-right .fc-agendaWeek-button{
+    padding:11px!important;
+}
+.fc-toolbar.fc-header-toolbar .fc-left h2{
+    width: 130px;
+    padding:0rem!important;
+    font-size:12px;
+}
+.fc-left button.fc-today-button{
+    padding:0rem 8px !important;
+}
+.fc-button-group button.fc-prev-button,
+.fc-header-toolbar button.fc-next-button{
+    padding:0rem 3px!important;
+}
+.fc-toolbar.fc-header-toolbar {
+    height:auto;
+}
+.calender-droupdown {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    clear: both;
+    display: block;
+    float: none;
+}
+.v_custome_button {
+    position: relative!important;
+    right: 0!important;
+}
+.display-ib.ml-auto.v_custome_button {
+    position: absolute !important;
+    right: 10px !important;
+    top: 21px;
+    bottom: auto;
+}
+h4+#employeeForm+.display-ib.ml-auto.v_custome_button{
+    position: absolute!important;
+    right: 10px!important;
+    top: 175px;
+    bottom: auto;
+}
+#calendar .fc-agendaWeek-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+    width: 33%;
+    float:left;
+}
+#calendar .fc-agendaDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right:last-child{
+    width: 33%;
+    float: right;
+}
+#calendar .fc-agendaThreeDay-button.fc-button.fc-state-default.fc-corner-left.fc-corner-right{
+    width: 33%;
+}
+.backend .row.row_new_v .col-20 {
+    width: 35%;
+}
+.backend .row.row_new_v .col-80 {
+    width: 65%;
+}
+.fronted .row.row_new_v .col-20 {
+    width: 50%;
+    
+}
+.fronted .row.row_new_v .col-80 {
+    width: 50%;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .pl-15.pr-15{
+    padding-left:0rem!important;
+}
+.v-flex-right {
+     align-items: end; 
+     display: block; 
+     justify-content: flex-end; 
+     padding-right: 0px; 
+}
+.accordion {
+     margin: 0px 0px; 
+} 
+.small-width-large tr th:first-child,
+.small-width-large tr th:first-child{
+    width:200px;
+}
+.alert.alert-danger1.absolute.vinay.top.mt-20.alert-top-0{
+    width: 100%;
+    left:0;
+    height:auto;
+}
+.widthfit310v {
+    width: fit-content !important;
+    width: -moz-fit-content!important;
+    min-width: 240px !important;
+}
+.pt-20.pb-20.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .relative.display-ib{
+    margin-bottom: 15px;
+}
+.height148 {
+    height: auto;
+}
+.mb-30.bgwhite.height148.border-w.border-radius4.d-flex.align-items-center.justify-content-center{
+    text-align: center;
+    padding: 12px;
+}
+.relative.salon-img-bg.ml-auto{
+    margin-top:10px;
+}
+.height56v.widtd120.form-control.datepicker ,
+.height56v.width120.form-control.datepicker,
+.height56v.width120.form-control.staff_datepicker,
+.height56v.widtd120.form-control.staff_datepicker{
+    margin-top:10px!important;
+}
+#app_popup .modal-content .height370{
+    width: 200px;
+}
+#app_popup .modal-content .relative{
+    text-align: center;
+}
+#app_popup .modal-content .relative a img,
+#app_popup .modal-content .relative a picture{
+    width:120px;
+}
+.footer_section .relative.around-25.pl-35.pr-35.text-right{
+    padding-top:0rem;
+}
+.around-25.select-day-time .d-flex.w-100{
+    display: block!important;
+}
+.around-25.select-day-time .d-flex.w-100 .overflow_elips {
+    width: 215px!important;
+}
+.around-25.select-day-time .d-flex.w-100 .checkbox-btn.display-ib{
+    margin-bottom: 36px;
+}
+.around-25.select-day-time .d-flex.w-100 .display-ib.mr-20.ml-30.width160{
+    width: 7rem;
+    margin-left: 0rem;
+}
+.around-25.select-day-time .d-flex.w-100 .display-ib.width160{
+    width: 7rem;
+}
+.on-sroll-fixed{
+    width: 100%!important;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-3.py-3.v-after-before.mb-30{
+    margin-top: 30px;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30.pb-1.h-100{
+    margin-bottom: 0rem;
+    height: auto !important;
+}
+.booknow_new_bottom_line_v {
+    background: #242424;
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
+    height: 64px;
+    padding: 10px 15px;
+}
+form#merchantBookingForm .booknow_new_bottom_line_v,
+form#submitBookNow .booknow_new_bottom_line_v {
+    bottom:0rem;
+}
+form#merchantBookingForm .booknow_new_bottom_line_v #mercjhant_booking_confirm{
+    width:40% !important;
+    min-width:180px;
+}
+.small-mb-30{
+    margin-bottom: 30px;
+}
+.employee_dashboard_calender_section .w-100.pl-30.pr-15{
+    padding: 0px 15px !important;
+}
+.employee_dashboard_calender_section .fc-toolbar .fc-right {
+    top: 15px;
+    right: 0px !important;
+    margin-bottom: 10px;
+}
+.employee_dashboard_calender_section .relative.mt-20.mb-60.bgwhite.around-20 {
+    padding-top: 0px;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex{
+    display: block !important;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips{
+    width: 204px !important;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex .d-flex{
+    display: flex !important;
+    margin-top: 1.5rem;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex #new_addmonday .d-flex{
+    margin-top: 0rem;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex .d-flex .width130 {
+    width: 105px !important;
+}
+.nav-link.header-btn.bgpinkorangegradient.colorwhite.font-size-14.fontfamily-regular.widthfit.m-auto{
+    width: fit-content !important;
+    width: -moz-fit-content!important;
+    min-width: 6.25rem !important;
+}
+#slectAllOption, #valid_error, #success_msg {
+    top: 40px !important;
+    width: 100% !important;
+    right: 16px;
+    height: auto !important;
+    padding: 5px 15px!important;
+    font-size: 12px;
+    position: absolute;
+    line-height: 1.75;
+    z-index: 9;
+}
+#merchantBookingForm .font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib{
+    margin-bottom: 1.25rem;
+}
+#merchantBookingForm .font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib + a.btn{
+   margin-bottom:0px;
+  }
+.dropdown.dropdownMoreOption button.btn,
+.new-btn-compltate{
+    background: #fff !important;
+    color: #333 !important;
+    border: 1px solid #333 !important;
+    height: 32px !important;
+    line-height: 32px !important;
+    display: inline-block !important;
+    padding: 0px 8px !important;
+}
+.user_booking_conform_section4 .comform-table table{
+    width: 100% !important;
+
+} 
+.user_booking_conform_section4 .comform-table table td{
+    white-space: normal !important;
+}
+.user_booking_conform_section4 .comform-table table td .font-size-14,
+.user_booking_conform_section4 .comform-table table td .font-size-16{
+    font-size: 13px;
+}
+.user_booking_conform_section4 .comform-table table tr td.font-size-20{
+    font-size: 15px;
+    white-space: nowrap !important;
+}
+.search-header-btn, .notification-header-btn{
+    padding-top:2px;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex .display-ib{
+    margin:.25rem 0rem !important;
+}
+.d-flex.w-100.align-items-center.mb-3.pt-3{
+    display: block !important;
+    position: relative;
+}
+.d-flex.w-100.align-items-center.mb-3.pt-3 .min-width85 {
+    min-width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.d-flex.w-100.align-items-center.mb-3.pt-3 .form-group.mb-0.ml-2{
+    display: inline-block;
+    margin-left: 0rem !important;
+    margin-right: 0.5rem !important;
+    margin-top: 1.25rem;
+}
+.d-flex.w-100.align-items-center.mb-3.pt-3 .form-group.mb-0.ml-2 .min-width120 {
+    min-width: 115px;
+}
+.d-flex.w-100.align-items-center.mb-3.pt-3 .close-salon-icon{
+    top: 22px;
+    right: 0rem;
+}
+.salon-new-page .d-flex.w-100.align-items-center.mb-3.pt-3 .form-group.mb-0.ml-3{
+    width: 42% !important;
+    display: inline-block;
+    margin: 10px 0 0 5px;
+}
+#marchant_update_profile .relative.px-3.py-3{
+    padding:1rem 0rem !important
+}
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3 .form-group.mb-0.ml-2 {
+    width:46% !important;
+}
+.procsstimediv .col-12.col-sm-4.col-md-4.col-lg-4.col-xl-4.pr-2,
+.procsstimediv .col-12.col-sm-4.col-md-4.col-lg-4.col-xl-4.pr-2.pl-2,
+.procsstimediv .col-12.col-sm-4.col-md-4.col-lg-4.col-xl-4.pl-2,
+.procsstimediv .col-12.col-sm-4.col-md-4.col-lg-4.col-xl-4{
+    padding:0rem 15px 10px 15px !important;
+}
+.new-modal-full-page .modal-content .pl-25.pr-25 .row_new_v .text-center img.no_listing_img,
+.new-modal-full-page .modal-content .pl-25.pr-25 .row_new_v .text-center picture.no_listing_img {
+    width:130px;
+}
+#setup_modal .text-right.pt-3.pb-3.bgwhite.boxshadow-5.px-3,
+#setup_modal .pt-3.pb-3.bgwhite.boxshadow-5.px-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#setup_modal .pt-3.pb-3.bgwhite.boxshadow-5.px-3 button{
+    margin-bottom: 10px;
+}
+#setup_modal .pt-3.pb-3.bgwhite.boxshadow-5.px-3 #save_add_employee_add_more,
+#setup_modal .pt-3.pb-3.bgwhite.boxshadow-5.px-3 .addServiceSub {
+    margin-left: 0px !important;
+}
+#setup_modal #addServiceSub + .row .col-xl-12.p-0 .pt-3.pb-3.bgwhite.boxshadow-5.px-3.mt-4{
+    display: block !important;
+    text-align: center;
+}
+#setup_modal .btn.btn-large.widthfit2.float-right{
+    float: none !important;
+}
+#setup_modal .btn.btn-large.widthfit2{
+    min-width: 85px !important;
+    padding: 0px 0.5rem;
+    margin:0px;
+}
+#setup_modal #addServiceSub + .row .col-xl-12.p-0 .pt-3.pb-3.bgwhite.boxshadow-5.px-3.mt-4 .btn.btn-large.widthfit2{
+    min-width: 105px !important;
+    margin-bottom: 0.5rem !important;
+}
+#setup_modal .relative.ml-3.min-width85{
+    min-width: 70% !important;
+    margin-left: 0.25rem !important;
+    vertical-align: middle;
+}
+#setup_modal .d-flex.w-100.align-items-center.mb-3.pt-3 .checkbox-btn.display-ib{
+    vertical-align: baseline;
+}
+#setup_modal .form-group.mb-0.ml-3{
+    display: inline-block;
+    width: 45% !important;
+    margin-left: 0rem !important;
+    margin-right: 0.5rem;
+    margin-top: 25px;
+}
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .d-flex{
+    display: block !important;
+}
+#setup_modal .relative.upl-gallary-parent.d-flex.justify-content-center.align-items-center.bglightgray{
+    display: flex !important;
+}
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .d-flex .relative.ml-auto .d-flex{
+    display: flex !important;
+}
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .d-flex .relative.ml-auto .d-flex .display-ib.mr-20.ml-auto{
+    margin-left:0px !important;
+}
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips{
+    width: 70% !important;
+}   
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .d-flex .checkbox-btn.display-ib {
+    display: inline-block;
+    width: auto;
+    margin-bottom:32px;
+}
+#setup_modal .bgwhite.border-radius4.mt-0.mb-0 .d-flex .display-ib .width130 {
+    width: 90px;
+}
+#merchantBookingForm .card-detail-new .deatail-box-right{
+    position: relative;
+    right: 0;
+}
+.relative.mb-60.bgwhite.box-shadow1.around-20.mt-20.border-radius4{
+    padding: 20px 10px 10px 10px;
+}
+.relative.mb-60.bgwhite.box-shadow1.around-20.mt-20.border-radius4 #calendar .fc-button-group{
+    width: 36%;
+}
+.step-one .steps img, .step-one .steps picture{
+    width: 20px;
+}
+.step-one:last-child .steps img, .step-one:last-child .steps picture{
+    width: 18px;
+}
+.fc-day-header.fc-widget-header {
+    font-size: 18px !important;
+}
+.fc-day-header.fc-widget-header.fc-today div span {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+.fc-day-header.fc-widget-header.fc-today div sup {
+    font-size: 12px !important;
+    padding-top: 5px !important;
+}
+.fc-day-header.fc-widget-header sup {
+    top: -2px !important;
+    font-size: 12px !important;
+    margin-left: 3px;
+}
+.col-12.col-sm-6.col-md-6.col-lg-6.col-xl-6.pr-0{
+    padding-right: 1rem !important;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .relative.border-radius4.p-4{
+    padding: 20px 10px !important;
+}
+#right-side-box-accordian4 a.accordion-toggle.color333.fontfamily-medium.font-size-16.a_hover_333.collapsed::after {
+    top: 2px;
+    right: -12px;
+}
+#right-side-box-accordian4 a.accordion-toggle.color333.fontfamily-medium.font-size-16.a_hover_333::after {
+    top: 6px;
+    right: -12px;
+}
+#right-side-box-accordian4 .d-flex.py-2.pl-3.addToCart .deatail-box-right{
+    right: 16px !important;
+}
+}
+
+
+@media (max-width:480px) {
+.d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3{
+    display: block !important;
+}
+.d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3 .dropdownMoreOption{
+    margin-bottom: 10px;
+}
+.d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3 .dropdownMoreOption+a>.btn.ml-0.mr-0.widthfit{
+    min-width: 188px !important;
+}
+#merchantBookingForm .font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib{
+    margin-bottom: 0rem;
+}
+#merchantBookingForm .font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib + a.btn{
+   margin-bottom:20px;
+}    
+.colorcyan.fontfamily-medium.font-size-16.a_hover_cyan.w-100.bgwhite.display-b.pl-3.pr-3.pt-10.pb-10.border-radius4.select-day-time-click.border-w4 {
+    padding: 10px 10px !important;
+}   
+.mt-50.mb-50.pl-25.pr-25.text-center .widthfit2 {
+    width: fit-content !important;
+    width: -moz-fit-content!important;
+    min-width: 115px !important;
+}    
+.mt-50.mb-50.pl-25.pr-25.text-center .btn.btn-large.widthfit2{
+    margin: 0 auto!important
+}
+.bgpinkorangegradient .col-xl-8.col-lg-7.col-md-8.col-sm-7.col-7.col_adj5 span.font-size-16 .mrm-5{
+    margin-right: .125rem;
+    font-size: 14px;
+}    
+.bgpinkorangegradient .col-xl-8.col-lg-7.col-md-8.col-sm-7.col-7.col_adj5 span.font-size-16{
+    font-size: 14px;
+}
+.new_tab_v .nav-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+}    
+.relative.bgwhite.border-w.border-radius4.pt-3.pb-3.pl-3.pr-3.mb-30 .overflow_elips{
+    width:190px!important;
+}   
+.yourfav-img-parent {
+    height: 4rem;
+    width: 4rem;
+}   
+.row.row_new_v .col-20 {
+    width: 50%;
+}
+.row.row_new_v .col-80 {
+    width: 50%;
+}
+.fronted .row.row_new_v .col-20 {
+    width: 50%;
+    margin-bottom:30px;
+}
+.fronted .row.row_new_v .col-80 {
+    width: 50%;
+}
+.select_v1 {
+    display: flex!important;
+    width: 137px!important;
+    flex: 1;
+    margin: 0.50rem auto!important;
+    padding:12px 3px!important;
+}
+.select_v1 p.ml-4{
+    margin-left:2px!important;
+}
+.relative.mt-3.pr-5{
+    padding-right:0rem!important;
+}
+.relative.mt-20.mb-60.bgwhite.border-radius4.box-shadow1.py-3.pt-4.pl-20.pr-20 .relative.border-b.pb-3 .d-flex{
+    display: block!important;
+}
+.relative.mt-20.mb-60.bgwhite.border-radius4.box-shadow1.py-3.pt-4.pl-20.pr-20 .relative.border-b.pb-3 .d-flex span{
+    display: inline-block;
+}
+.mobile-mb-20{
+        margin-bottom: 20px;
+    }
+.new_tab_profile_v.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 50px;    
+}        
+.new-pro-toggle-btn {
+    position: absolute;
+    top: 60px!important;
+    right: 0px;
+}   
+.display-ib.float-right.mb-3{
+    width: 100%;
+    display: block;
+    float: unset!important;
+}
+.display-ib.float-right.mb-3 .btn-new.widthfit.float-right{
+    float: unset!important;   
+}
+a .btn.btn-large.widthfit2{
+    margin-right: 0px !important;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex .form-group.date_pecker.display-ib{
+    max-width:125px !important;
+}
+.salon-new-step::before,
+.step-one.active::after{
+    top: 32px;
+}
+.salon-new-step > div.step-one p{
+    font-size: 10px;
+    line-height: 1;
+    padding: 0px 4px;
+}
+.steps {
+    width: 36px;
+    height: 36px;
+    line-height: 31px;
+}
+.salon-new-page .btn.btn-border-orange.btn-large.widthfit2{
+    min-width: 94px !important;
+    padding: 0 .75rem;
+}
+.salon-new-page .d-flex.w-100.align-items-center.mb-3.pt-3 .form-group.mb-0.ml-3{
+    width: 42% !important;
+    display: inline-block;
+    margin: 10px 0 0 5px;
+}
+.checkout-new-page .relative.around-20.min-height89vh.scroll-effect{
+    padding: 20px 0px;
+}
+.checkout-new-page .relative.around-20.min-height89vh.scroll-effect .relative.pl-30{
+    padding-left: 1rem;
+}
+.checkout-new-page .relative.around-20.min-height89vh.scroll-effect #accordion .font-size-14{
+    font-size: 12px;
+}
+.checkout-new-page .card .card-header {
+    padding: 10px 10px;
+}
+.checkout-new-page .card .card-header .relative.text-right.mr-3{
+    margin-right: 0.25rem !important;
+}
+.checkout-new-page .btn.widthfit.mx-1{
+    width: 100% !important;
+    margin:5px 0rem !important;
+}
+#selectFilters .relative.mt-0.around-30.pt-0 div.relative{
+    margin-top:90px;
+}
+.pymnnt-box{
+    right: auto;
+    max-width: 100%;
+    margin-top: -95px;
+}
+.v_overflow_scroll {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.card-detail-new.v_overflow_scroll.custom_scroll .border-b.d-flex.py-3.pl-3.bookingSelect2>.d-flex.standard-duration-full label.color999.fontfamily-light.font-size-12.mb-1{
+    width:115px !important;
+}
+.user_registration_done_thankyou_section .font-size-50{
+    font-size: 36px;
+}
+.user_registration_done_thankyou_section .font-size-30{
+    font-size: 20px;
+}
+.user_registration_done_thankyou_section .font-size-20{
+    font-size: 16px;
+}
+#addEmployeeHtmlPopup .around-30.mt-0.mb-3.pt-0{
+    padding: 15px;
+}
+#addEmployeeHtmlPopup .around-30.mt-0.mb-3.pt-0 > .d-flex{
+    display: block !important;
+}
+#addEmployeeHtmlPopup .checkbox-btn{
+    margin-bottom: 26px;
+}
+#addEmployeeHtmlPopup .checkbox-btn .overflow_elips{
+    width: 220px !important;
+    white-space: nowrap !important;
+}
+}
+
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) and (max-width: 767px) {
+.contact-img-box {
+    width: 100%;
+    margin-bottom: 20px;  
+}
+#merchantBookingForm .card-detail-new .deatail-box-right{
+    position: relative;
+    right: 0;
+}
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select.arrow-none .dropdown-toggle,
+.card-detail-new.v_overflow_scroll.custom_scroll .relative.mr-1 label.color999.fontfamily-light.font-size-12.mb-1,
+.card-detail-new.v_overflow_scroll.custom_scroll .multi_sigle_select .dropdown-toggle {
+    width: 85px !important;
+}
+.card-detail-new.v_overflow_scroll.custom_scroll .border-b.d-flex.py-3.pl-3.bookingSelect2>.d-flex.standard-duration-full label.color999.fontfamily-light.font-size-12.mb-1{
+    width:115px !important;
+}
+.deatail-box-left {
+    flex: 60%;
+}    
+form#submitBookNow .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after,
+form#merchantBookingForm .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after{
+display: none;
+}
+.card-detail-new.v_overflow_scroll .overflow_elips {
+    max-width: 150px !important;
+}      
+.card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+    max-width: 290px !important;
+}
+.termcondi_section1 .font-size-30,
+.termcondi_section2 .font-size-30{
+    font-size: 24px;
+}     
+.salon-new-page .around-25.select-day-time .row.mt-0 .d-flex{
+    display: block !important;
+}    
+.salon-new-page .around-25.select-day-time .row.mt-0 .d-flex .checkbox-btn{
+    height: 65px;
+}
+.first_pop {
+    left: 100px !important;
+}
+.search-header-btn, .notification-header-btn {
+    padding-top: 2px;
+}
+#merchantBookingForm .font-size-14.colororange.fontfamily-medium.a_hover_orange.mb-20.display-ib{
+    margin-bottom: 1.25rem;
+    font-size: 12px; 
+}
+#merchantBookingForm .col-12.col-sm-7.col-md-7.col-lg-8.col-xl-7.text-right.pl-0{
+    padding-right: 0rem;
+}
+      
+.employee_dashboard_calender_section .relative.mt-20.mb-60.bgwhite.around-20 {
+    padding-top: 0px;
+}
+.employee_dashboard_calender_section #calendar .fc-toolbar .fc-right {
+    right: 0px !important;
+    top: 13px;
+}    
+.bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30{
+    height: auto !important;
+}    
+.service_listing_section1 .container {
+    max-width: 630PX;
+}    
+.col-xl-8.col-lg-7.col-md-8.col-sm-7.col-7.col_adj5 span.font-size-16 .mrm-5 {
+    margin-right: .125rem;
+    font-size: 14px;
+}    
+ #app_popup .modal-content .height370{
+    width: 200px;
+}   
+#app_popup .modal-content .relative a img,
+#app_popup .modal-content .relative a picture{
+    width:100px;
+}
+ .bgwhite.border-radius4.box-shadow1.pt-20.px-4 .relative.d-flex .select_v {
+    margin: 0.50rem 4px !important;
+    }
+    .select_v p.font-size-14.color333.fontfamily-medium.mt-2 {
+    font-size: 12px;
+}   
+ .mobile-mb-20{
+        margin-bottom: 20px;
+    }   
+.small-width-large tr th:first-child,
+.small-width-large tr th:first-child{
+    width:200px;
+}    
+.relative.mt-3.pr-5 .btn-group.multi_sigle_select.mb-20 {
+    width:50%;
+}   
+.v-flex-right {
+    align-items: start;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+.backend .row.row_new_v .col-20 {
+    width: 25%;
+}
+.backend .row.row_new_v .col-80 {
+    width: 75%;
+}
+.fronted .row.row_new_v .col-20 {
+    width: 70%;
+    margin-bottom:30px;
+}
+.fronted .row.row_new_v .col-80 {
+    width: 70%;
+}   
+.select_v1{
+    display: flex!important;
+    width: 150px!important;
+    padding: 0.5rem!important;
+}  
+
+.select_v1 p.font-size-14{
+    white-space: nowrap;
+    width: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin-left:0.25rem!important;
+}
+.my-table{
+    overflow-y: auto!important;
+}    
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right.d-inline-flex.align-items-center {
+    text-align: right!important;
+}   
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right {
+    flex: 45%;
+}
+.booknow_new_bottom_line_v.mt-2 .width200{
+    width: auto!important;
+}
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-right .btn.selectedBtn.widthfit2.btn-ml-20.effect {
+    width: 60% !important;
+    min-width: 60% !important;
+}
+form#merchantBookingForm .booknow_new_bottom_line_v,
+form#submitBookNow .booknow_new_bottom_line_v {
+    bottom:0rem;
+}
+.v_overflow_scroll .overflow_elips {
+    width: 220px;
+}
+/** layout css **/
+.input-group .gj-datepicker.gj-datepicker-md.gj-unselectable {
+    width: 71%;
+}
+.pt-120 {
+    padding-top: 120px;
+}
+/** header css **/
+.header{
+   height: 70px;
+}
+.header_top{
+   height: 70px;
+}
+.header-container {
+   padding: 0 0px;
+   width: 100%;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-brand {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-right: 1rem;
+}
+.header-container .navbar-nav .dropdown .dropdown-menu.box-shadow3 {
+    box-shadow: 0rem 0rem 0.625rem rgba(98,104,124,.15);
+    border: none;
+    padding: 0.625rem 1rem !important;
+    position: absolute;
+}
+.left-side-arrow{
+    display: block;
+    position: fixed;
+    top:60px;
+    left:0px;
+    z-index: 99;
+    cursor: pointer;
+    border-left: 15px solid #009fa8;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+.left-side-dashbord {
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index:110;
+}
+.hide-left-bar {
+    margin-left: -210px !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.hide-left-bar a.left-side-arrow{
+    left: 0px !important;
+}
+.cnc_top{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-nav.ml-auto .nav-item{
+    padding: 10px 20px !important;
+}
+.navbar-nav.ml-auto .nav-item:first-child{
+    padding: 10px 20px 0px 20px !important;
+}
+.navbar-nav.ml-auto .nav-item:last-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item{
+    padding: 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item:first-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.navbar-nav.mr-auto .nav-item:last-child{
+    padding: 10px 20px 10px 20px !important;
+}
+.r_l_s_s_h_dekstop{
+    display: none; 
+}
+.r_l_s_s_h_mobile{
+    display: list-item;
+}
+.navbar-collapse{
+   background: #fff;
+   border-top: 1px solid #000;
+}
+.cnc_bottom{
+   background: #fff;
+   border-top: 1px solid #000;
+}
+.header_cnc_bottom_scroll{
+   overflow-x: auto;
+   overflow-y: hidden;  
+}
+.header_cnc_bottom_scroll ul.navbar-nav.mr-auto{
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow-x: auto;
+   overflow-y: hidden;
+   width: 1110px;   
+}
+.cnc_bottom li.nav-item{
+    display: list-item; 
+}
+/** footer css **/
+.footer_section .col-xl-6.col-lg-6.col-md-5 .relative.around-25.pl-35.pr-35.text-right{
+    text-align: left !important;
+    padding-top: 0px;
+}
+.footer_section .col-xl-6.col-lg-6.col-md-5 .relative.around-25.pl-35.pr-35.text-right a.ml-15{
+    margin-left: 0rem;  
+    margin-right: 0.9375rem;
+}
+.footer_section .footer_logo_icon{
+    width: 220px;
+    height: auto;   
+}
+/** mid-content css **/
+.home_sec2_view_venues_img_block {
+    width: 240px;
+    height: 138px;
+    overflow: hidden;
+}
+.home_section2 .col-xl-4 .bgpinkorangegradient.border-b-l4 .col-xl-8 .relative .font-size-16{
+    font-size: 0.875rem;    
+}
+.home_section2 .col-xl-4 .bgpinkorangegradient.border-b-l4 .col-xl-8 .relative .font-size-16 .fa-w-18.mr-10{
+    margin-right: 0.3125rem;    
+}
+.home_section2 .col-xl-4 .bgpinkorangegradient.border-b-l4 .col-xl-4 .relative .font-size-16{
+    font-size: 0.875rem;    
+}
+.sevice_provider_section3.clear.pb-30 .box-shadow2.bgwhite.pt-30.pb-30 .d-flex{
+    display: block!important;
+}
+.relative.box-5-fill{
+    width:100%!important;
+}
+.h_sec3_offer_listing_img_block{
+    width: 190px;
+    height: 110px;
+    overflow: hidden;   
+}
+.home_sec1_form_block {
+    margin-bottom: 0px;
+}
+.home_section1 .col-xl-12 .relative.pl-45{
+    padding-left: 0px;
+}
+.thankyou_top_img_block{
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    margin-bottom: 20px;    
+}
+.thankyou_mid_line_img{
+    width: 100%;
+}
+.booking_confirmation_thankyou-section .font-size-70 {
+    font-size: 40px;
+}
+.booking_confirmation_thankyou-section .mt-50 {
+    margin-top: 20px;
+}
+.booking_confirmation_thankyou-section .font-size-30 {
+    font-size: 20px;
+}
+.booking_confirmation_thankyou-section .font-size-20 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.membership_plan_section1 .font-size-34 {
+    font-size: 29px;
+}
+.membership_payment_section2.pt-100{
+    padding-top:50px;
+}
+.slider-full-img{
+    height:auto;
+}
+.right-side-box .carousel.slide{
+    width: 200px;
+}
+.right-side-box .col-12.col-sm-12.col-md-5.col-lg-4.col-xl-4.pl-0 {
+    padding-left: 1rem!important;
+    margin-top: 0.625rem;
+}
+.right-side-box .accordion-inner .col-12.col-sm-12.col-md-7.col-lg-7.col-xl-7{
+    margin-top: 1rem;
+}
+
+/**/
+.right-side-dashbord .border-radius4.relative.uploaded-box {    
+    background: #fff;
+    text-align: center;
+    margin-right: 12px;
+    flex: 1;
+    overflow: hidden;
+}
+.pt-25.uploaded-box {
+    padding-top:1rem;
+}
+.pt-25.uploaded-box p.mt-3.font-size-12{
+    font-size:0.625rem;
+    margin-top:5px !important;
+    margin-bottom: 0rem;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box:last-child{
+    margin-right:0rem;
+}
+.right-side-dashbord .uploaded-box img.uploaded-img,
+.right-side-dashbord .uploaded-box picture.uploaded-img{
+    width:auto;
+    height:100px;
+}
+.right-side-dashbord {
+    padding-left: 15px !important;
+}
+.header_dashbord .d-inline-flex.ml-auto.align-self-center{
+    margin-right:20px;
+}
+.lrmlbo_logo_icon {
+    width: 250px;
+}
+
+/*user table*/
+.my-table .table td, .my-table .table th {
+    padding: 15px 8px;
+    white-space: nowrap;
+}   
+.my-table .table td img.mr-3.width30,
+.my-table .table td picture.mr-3.width30{
+    margin-right:0.625rem !important;
+}
+.my-table .table tr td:first-child {
+    padding-left: 20px;
+}
+.my-table .table td .overflow_elips{
+    width:100px;
+}
+.my-table{
+    overflow-x:auto; 
+}
+.my-table .table{
+    width:1015px;
+}
+.comform-table table tr th, .comform-table table tr td {
+    padding: 13px 10px;
+}
+.right-side-dashbord.detail {
+    padding-left: 210px;
+    padding-right:10px;
+}
+.right-side-dashbord.detail .around-40{
+    padding:15px;
+}
+.right-side-dashbord.detail .comform-table table tr th, .right-side-dashbord.detail .comform-table table tr td {
+    padding: 13px 13px;
+}
+.mobile-mt-20{
+    margin-top:20px;
+}
+.comform-table{
+    overflow-x: scroll;
+}
+.comform-table table.w-100{
+    width:550px!important;
+}
+#bookingDetailHtml .comform-table table.w-100{
+    width: 100% !important;
+}
+.relative.top-table-droup.d-flex.align-items-center{
+    display: block !important;
+    padding:10px;
+}
+#staffdate_custom_filter,#servicedate_custom_filter,#clientdate_custom_filter{
+    display: inline-block !important; 
+}
+.relative.top-table-droup.d-flex.align-items-center .mr-2.ml-20{
+    margin-left:0.25rem !important;
+    margin-right: 0rem !important;
+}
+.relative.top-table-droup.d-flex.align-items-center .form-group.date_pecker{
+    width: 120px !important;
+}
+.new_tab_v.nav-tabs .nav-link {
+    padding: 19px 30px 14px 30px;
+}
+.relative.top-table-droup.d-flex.align-items-center .display-ib.ml-auto{
+    margin-top: 20px;
+    text-align: right;
+}
+.right-side-dashbord.w-100.pl-30.pr-30,
+.right-side-dashbord.w-100.pl-30.pr-30{
+    padding:0rem 15px;
+}
+.mobile1-mb-40{
+    margin-bottom:40px;
+}
+.right-side-dashbord .input-group.form-group-mb-50{
+    margin-bottom:20px;
+}
+.col-12.col-sm-12.col-md-6.col-lg-6.col-xl-6.text-right.pt-30{
+    padding-top:0rem;
+    margin-bottom:1rem;
+}
+#small-slider {
+    width: 241px;
+    margin: 20px auto;
+}
+.image-map {
+    width: 100%;
+}
+.height-vh {
+    height: auto;
+}
+.membership-plan-vectore-img{
+    width:100%;
+}
+#lrmrb_scroll {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top:20px;
+}
+.login_register_main_left_block{
+    background-image:none;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+}
+.login_register_main_left_block_overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.login_register_main_left_block_overlay .relative.absolute.bottom{
+    display: none;
+}
+.alert.alert-success.absolute.vinay.top.w-100.mt-15.text-center{
+    width:  auto !important;
+}
+.relative.align-self-center.d-flex.flex-row.login_register_main_right_block.w-100.mobile-mt-75{
+    margin-top:75px !important;
+}
+.mobile-none{
+    display: none;
+}
+.card.mobile-none{
+    display: none !important;
+}
+
+.user_profile_section1 .bgwhite.box-shadow1.relative.border-radius4.around-30.pr-90.pt-50 .alert.alert-success.absolute.vinay.top.w-100.mt-15.text-center{
+    top:-317px!important;
+}
+.user_profile_section1 .bgwhite.box-shadow1.border-radius4.pt-40.pb-25.text-center.mb-50{
+    margin-bottom:2rem!important;
+}
+.bgwhite.border-radius4.box-shadow1.mb-60.mt-60{
+    margin:50px 0px;
+}
+.fc-toolbar.fc-header-toolbar .fc-left{
+    position: relative;
+}
+.map_view_hide_on_mobile{
+    display: none;
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:first-child,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(3),
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(5){
+    padding-right:8px!important;  
+    padding-left:15px !important;  
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:last-child,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(2),
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(4){
+    padding-left:8px!important;    
+}
+.right-side-dashbord.right-side-dashbord-v1 .bgwhite.border-radius4.box-shadow1.p-3 {
+    margin-bottom: 24px;
+}
+.right-side-dashbord.right-side-dashbord-v1.w-100.pl-30.pr-30 .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.pl-0,
+.right-side-dashbord.right-side-dashbord-v1.w-100.pl-30.pr-30 .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12.pl-0{
+    padding-left:1rem!important;
+}
+.fc-toolbar.fc-header-toolbar .fc-left {
+    right: auto!important;
+    left: 0rem!important;
+    width:330px;
+}
+
+.fc-toolbar.fc-header-toolbar .fc-left h2{
+    width: 130px;
+    padding:0rem!important;
+}
+.fc-toolbar.fc-header-toolbar {
+    height:55px;
+}
+.calender-droupdown {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    clear: both;
+    display: block;
+    float: none;
+}
+.fc-toolbar .fc-right {
+    right:20px!important;
+    top:15px;
+}
+
+.v-flex-right {
+    align-items: end;
+    display: block;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+.test-slider-v {
+    height: 5px;
+    width: 80px;
+    background: #E8E8E8;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0px;
+    margin-right: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.height56v.widtd120.form-control.datepicker ,
+.height56v.width120.form-control.datepicker{
+    width: 135px!important;
+} 
+.around-25.select-day-time .d-flex.w-100 .display-ib.mr-20.ml-30.width160{
+    margin-left: 0.875rem;
+    margin-right: 0.25rem;
+    width: 7rem;
+}  
+.around-25.select-day-time .display-ib.width160{
+    width: 7rem;
+}
+.on-sroll-fixed{
+    width: 100%!important;
+}
+#calendar{
+    position: relative;
+}
+#calendar .fc-toolbar .fc-right {
+    right: 60px !important;
+    top: -52px;
+}
+.around-25.select-day-time.select-day-time .d-flex.w-100 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips {
+    width: 220px!important;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-3.py-3.v-after-before.mb-30{
+    margin-top: 30px;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30.pb-1.h-100{
+    margin-bottom: 0rem;
+    height: auto !important;
+}
+.small-mb-30{
+    margin-bottom: 30px;
+}
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex{
+    display: block !important;
+}
+
+#frmmyEmployee .bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .d-flex .d-flex{
+    display: flex !important;
+    margin-top: 1.5rem;
+}
+.nav-link.header-btn.bgpinkorangegradient.colorwhite.font-size-14.fontfamily-regular.widthfit.m-auto{
+    width: fit-content !important;
+    width: -moz-fit-content!important;
+    min-width: 6.25rem !important;
+}
+.bgwhite.box-shadow1.border-radius4 .round-employee-upload .all_type_upload_file.bgblack18 {
+    bottom: 0rem;
+}  
+.user_booking_conform_section4 .comform-table table{
+    width: 100% !important;
+
+} 
+.user_booking_conform_section4 .comform-table table td{
+    white-space: nowrap !important;
+}
+.checkout-new-page .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pr-0{
+    padding-right:1rem !important;
+}
+form#merchantBookingForm .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1 {
+    position: relative;
+    padding-right: 30px !important;
+}
+#addEmployeeHtmlPopup .checkbox-btn .overflow_elips{
+    width: 220px !important;
+    white-space: nowrap !important;
+}
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) and (max-width: 991px) {
+    #addEmployeeHtmlPopup .checkbox-btn .overflow_elips{
+        width: 220px !important;
+        white-space: nowrap !important;
+    }
+#openRegisterPopup .modal-dialog.modal-lg{
+    min-width:750px;
+    max-width:750px;
+}    
+.my-new-drop-v1 {
+    right: 9px;
+    top: -46px;
+}    
+.contact-img-box {
+    width: 100%;
+    margin-bottom: 20px;    
+}    
+#merchantBookingForm .card-detail-new .deatail-box-right{
+    position: relative;
+    right: 0;
+}    
+form#merchantBookingForm .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1 {
+    position: relative;
+    padding-right: 30px !important;
+}
+    form#submitBookNow .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after,
+form#merchantBookingForm .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8 .bgwhite.border-radius4.box-shadow1::after{
+display: none;
+}
+.termcondi_section1 .font-size-30,
+.termcondi_section2 .font-size-30{
+    font-size: 24px;
+} 
+#booking-conform-modal .col-12.col-sm-12.col-md-6.col-lg-8.col-xl-8{
+    padding-right: 0rem;
+}
+.first_pop{
+    left: 110px !important;
+}
+.bgwhite.box-shadow1.border-radius4 .round-employee-upload .all_type_upload_file.bgblack18 {
+    bottom: 0rem;
+}    
+.user_booking_section1 .relative.around-40.pr-65.box-shadow1.bgwhite.mt-50.mb-80 {
+    padding: 40px 30px !important
+}   
+#app_popup  img.height370,
+#app_popup  picture.height370{
+    width: 220px;
+}
+#app_popup a img,
+#app_popup a picture{
+    width: 100px;
+}
+.employee_dashboard_calender_section .relative.mt-20.mb-60.bgwhite.around-20 {
+    padding-top: 0px;
+}    
+.bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30{
+    height: auto !important;
+    padding-bottom: 20px;
+}    
+.around-25.select-day-time.select-day-time .d-flex.w-100 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips {
+    width: 215px;
+} 
+#add_category .around-25.select-day-time.select-day-time .d-flex.w-100 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips {
+    width: 150px;
+}  
+#add_category .display-ib.mr-20.ml-30.width160,#add_category .display-ib.width160 {
+    width: 7rem;
+    margin-right: 0.5rem;
+}  
+.right-side-box .goprofile .fa-star-half.mr-2.font-size-16{
+    margin-left: -20px!important;
+}
+.display-ib.mr-20.ml-30.width160{
+    margin-left: 0.875rem;
+} 
+.service_listing_section1 .container{
+    max-width: 100%;
+}    
+.comform-table table tr th, .comform-table table tr td {
+    padding: 13px 13px;
+}    
+.noUi-target {
+    width: 98%!important;
+}    
+.new_tab_v.nav-tabs .nav-link{
+    padding: 19px 30px 14px 30px;
+}
+.height56v.widtd120.form-control.datepicker ,
+.height56v.width120.form-control.datepicker,
+.height56v.width120.form-control.staff_datepicker,
+.height56v.widtd120.form-control.staff_datepicker{
+    width: 125px!important;
+    padding:0rem 10px;
+}  
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center {
+    margin-top: 10px;
+    padding: 10px !important;
+    display: block !important;
+} 
+#staffdate_custom_filter,#servicedate_custom_filter,#clientdate_custom_filter{
+    display: inline-block !important; 
+}
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .checkbox label {
+    padding-left: 1.25rem;
+}
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .checkbox label .mr-3{
+    margin-right: .125rem !important;
+}
+.btn.btn-small.widthfit80v.ml-5.selectedBtn,
+.btn.btn-border-orange.btn-small.widthfit80v.ml-5{
+    margin-left: 2rem !important;
+}
+.pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center .form-group.mb-0.width120.display-ib.vertical-middle{
+    width: 80px;
+}
+.sticky-top80-fixed .test-slider-v {
+    height: 5px;
+    width: 60px;
+}    
+.fa-star-half.font-size-16 {
+    margin-left: -20px;
+} 
+.right-side-box .goprofile span{
+    font-size: 15px!important;
+}  
+.goprofile .mani_stars_count{
+    line-height: 15px;
+} 
+.goprofile .mani_text_review{
+    line-height: 15px;
+}
+.right-side-box .goprofile .mr-2.font-size-16{
+    font-size: 14px;
+    margin-right:0.25rem!important;
+}   
+.d-flex.border-w.border-radius4.bgwhite.pt-10.pb-10.px-3.mt-10 {
+    padding: 10px 10px!important
+}
+.right-side-box .col-lg-3.pl-0.text-right .font-size-14{
+    font-size: 13px;
+}
+.deatail-box-left {
+    flex: 63%;
+}
+.deatail-box-right {
+    flex: 33%;
+}
+.fontfamily-medium.color333.font-size-14.mb-0{
+    margin-right:0rem!important;
+}
+#right-side-box-accordian4 a.accordion-toggle.color333.fontfamily-medium.font-size-16.a_hover_333 span.fontfamily-medium.color333.font-size-14{
+    margin-right: 20px !important;
+}
+.tab-content .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pr-5,
+.sevice_provider_section3 .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pr-5{
+    padding-right:0rem!important 
+}
+#frmrate_short .d-flex.mb-20{
+    display: block!important;
+}
+#frmrate_short .d-flex.mb-20 .checkbox.mt-0.mb-0{
+    display: inline-block!important;
+    vertical-align: middle;
+}
+.col-12.col-sm-6.col-md-12.col-lg-6.col-xl-6.pl-2 ,
+.col-12.col-sm-6.col-md-12.col-lg-6.col-xl-6.pr-2 {
+    padding:0rem 1rem!important;
+}     
+.small-width-large tr th:first-child,
+.small-width-large tr th:first-child{
+    width:200px;
+}    
+.row.row_new_v {
+    width: 105%;
+    margin: 0 -10px;
+}
+.v_overflow_scroll .width200 {
+    width: 7.25rem;
+}
+.card-detail-new.v_overflow_scroll .width200 {
+    width: 7rem;
+}
+.test-slider-v {
+    height: 5px;
+    width: 135px;
+    background: #E8E8E8;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    margin-right: 4px;
+    position: relative;
+    overflow: hidden;
+}    
+.relative.mt-60.bgwhite.border-radius4.box-shadow1.py-3.pt-4.pl-20.pr-20{
+    padding-right:1rem!important;
+    padding-left:1rem!important;
+}
+.row.row_new_v .col-20 {
+    width: 35%;
+}
+.row.row_new_v .col-80 {
+    width: 65%;
+}    
+.select_v.select_v1{
+    padding-left:15px!important;
+}
+.select_v.select_v1 img,
+.select_v.select_v1 picture {
+    height: 44px;
+    margin:unset!important; 
+} 
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right.d-inline-flex.align-items-center {
+    text-align: right!important;
+}   
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right {
+    flex: 45%;
+}
+.booknow_new_bottom_line_v.mt-2 .width200{
+    width: auto!important;
+}
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-right .btn.selectedBtn.widthfit2.btn-ml-20.effect {
+    width: 60% !important;
+    min-width: 60% !important;
+}
+form#merchantBookingForm .booknow_new_bottom_line_v,
+form#submitBookNow .booknow_new_bottom_line_v {
+    bottom:0rem;
+}   
+.v_overflow_scroll .overflow_elips {
+    width: 220px;
+}
+.select_v {
+    width: 63px!important;
+    height: 116px;
+    border: 1px solid #D8D8D8;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding: 12px 0px;
+    margin: 0rem 4px;
+    cursor: pointer;
+    position: relative;
+} 
+.select_v1{
+    display: flex;
+
+}   
+.select_v p.font-size-14.color333.fontfamily-medium.mt-2{
+    font-size: 12px;
+}
+.select_v1 p.font-size-14{
+    white-space: nowrap;
+    width: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+/** layout css **/
+.fc-toolbar.fc-header-toolbar .fc-left{
+    position: relative;
+}
+.input-group .gj-datepicker.gj-datepicker-md.gj-unselectable {
+    width: 74%;
+}
+/** header css **/
+.lrmlbo_logo_icon {
+    width: 250px;
+}
+.header-container{
+    padding:0rem 30px;
+}
+.navbar-nav.mr-auto .nav-item {
+    padding: 10px 10px !important;
+}
+/** footer css **/
+.footer_section .col-xl-6.col-lg-6.col-md-5 .relative.around-25.pl-35.pr-35.text-right a.ml-15{
+    margin-left: 0.625rem;  
+}
+/** mid-content css **/
+.home_section1 .col-xl-12 .relative.pl-45{
+    padding-left: 0px;
+}
+.home_sec2_view_venues_img_block {
+    width: 330px;
+    height: 190px;
+    overflow: hidden;
+}
+.h_sec3_offer_listing_img_block {
+    width: 280px;
+    height: 161px;
+    overflow: hidden;
+}
+
+/**/
+.right-side-dashbord .border-radius4.relative.uploaded-box {    
+    background: #fff;
+    text-align: center;
+    margin-right: 12px;
+    flex: 1;
+    overflow: hidden;
+}
+.pt-25.uploaded-box {
+    padding-top:1rem;
+}
+.pt-25.uploaded-box p.mt-3.font-size-12{
+    font-size:0.625rem;
+    margin-top:5px !important;
+    margin-bottom: 0rem;
+}
+
+.header_dashbord .d-inline-flex.ml-auto.align-self-center{
+    margin-right:20px;
+}
+/*user*/
+.my-table .table td, .my-table .table th {
+    padding: 15px 8px;
+    white-space: nowrap;
+}   
+.my-table .table td img.mr-3.width30,
+.my-table .table td picture.mr-3.width30{
+    margin-right:0.625rem !important;
+}
+.my-table .table tr td:first-child {
+    padding-left: 20px;
+}
+.my-table .table td .overflow_elips{
+    width:100px;
+}
+.my-table{
+    overflow-x:auto; 
+}
+.my-table .table{
+    min-width:auto;
+}
+.user_profile_section1 .bgwhite.box-shadow1.border-radius4.around-30.pr-90{
+    padding-right:30px;
+}
+.membership-plan-vectore-img{
+    width:100%;
+}
+.membership_white_box{
+    margin:0 auto;
+}
+.slider-full-img{
+    height:215px;
+}
+.home_section2 small.fontfamily-regular.font-size-12.colorwhite.mlm-5{
+    display: block;
+}
+/* .btn.btn-large.widthfit{
+    padding: 0rem;
+    width:160px!important;
+} */
+#user_update_profile .btn.btn-large.widthfit{
+    width: 190px!important
+}
+
+.fc-toolbar.fc-header-toolbar .fc-left {
+    right: auto!important;
+    left: 0rem!important;
+    width:325px;
+}
+.fc-button-group button.fc-prev-button {
+    padding: 0 10px !important;
+ }
+ .fc-header-toolbar button.fc-next-button {
+    padding: 0 10px !important;
+ }
+.fc-toolbar.fc-header-toolbar .fc-left h2{
+    width: 155px;
+    padding:0rem !important;
+}
+.fc-toolbar.fc-header-toolbar {
+    height:55px;
+}
+.calender-droupdown {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    clear: both;
+    display: block;
+    float: none;
+}
+#calendar{
+    position: relative;
+}
+.fc-toolbar .fc-right {
+    right: 60px !important;
+    top: -52px;
+}
+.mobile-mb-20{
+        margin-bottom: 20px;
+    }
+.mobile-none {
+    display: block;
+}
+
+.no_favourite,.your_favourite{
+    width:100%!important;
+}  
+.small_box_input {
+    width: 30%!important;
+}
+#chgPassword .mt-50.mb-50.pl-25.pr-25.text-center {
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}   
+.booknow_new_bottom_line_v.mt-2 .deatail-box-left .overflow_elips{
+    width: 225px;
+}  
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-left{
+    flex: 2%;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box:last-child{
+    margin-right:0rem;
+}
+.right-side-dashbord .uploaded-box img.uploaded-img,
+.right-side-dashbord .uploaded-box picture.uploaded-img{
+    width:100%;
+    height:100px;
+}
+.right-side-dashbord {
+    padding-left: 90px;
+}
+.right-side-dashbord.w-100.pl-30.pr-30{
+    padding-right:20px!important;
+}
+.right-side-dashbord.right-side-dashbord-v1 .bgwhite.border-radius4.box-shadow1.p-3{
+    margin-bottom: 30px;
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12.pl-0,
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-12.col-md-12.col-lg-6.col-xl-6.pl-0,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:first-child,
+.right-side-dashbord.right-side-dashbord-v1 .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-6.pl-0:nth-child(3){
+    padding-left:1rem!important;
+}
+.right-side-dashbord.detail {
+    padding-left: 210px;
+    padding-right:15px;
+}
+.right-side-dashbord.detail .around-40{
+    padding:20px;
+}
+.right-side-dashbord.detail .comform-table table tr th, .right-side-dashbord.detail .comform-table table tr td {
+    padding: 13px 20px;
+}
+.image-map {
+    width: 100%;
+}
+.left-side-search {
+    padding: 20px 10px;
+}
+.left-side-search .btn.btn-default.dropdown-toggle.mss_sl_btn{
+    padding-left: unset!important;
+}
+.left-side-search .border-t.border-b.pt-30.pb-30 .checkbox .font-size-14.pl0.color666{
+  white-space: nowrap; 
+  width: 100%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.left-side-dashbord {
+    width: 70px;
+}
+.left-side-dashbord a span.colorwhite{
+    display: none;
+}
+.v_custome_button .dropdown-menu {
+    left: auto !important;
+    right: 0!important;
+}
+.gj-picker div[role="navigator"] div[role="period"]{
+    font-size: 13px !important;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips{
+    width:240px !important;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .border-radius4.around-30 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .btn-group.multi_sigle_select.inp_select.v_inp_new.width130{
+    width: 90px;
+}
+.v_custome_button .dropdown-menu {
+    left: auto !important;
+    right: 0px !important;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-3.py-3.v-after-before.mb-30{
+    margin-top: 30px;
+}
+#submitBookNow .bgwhite.border-radius4.box-shadow1.pt-20.px-4.mb-30.pb-1.h-100{
+    margin-bottom: 0rem;
+    height: auto !important;
+}
+.small-mb-30{
+    margin-bottom: 30px;
+}
+.bookingCountNoti{
+right: 0px;
+margin-top: -15px;
+}
+.bookingCancelNoti{
+ right:0px;
+ margin-top: -5px;
+ display: block;
+ padding: 0px 0px;
+text-align: center;
+line-height: 20px;
+}
+/* .left-side-dashbord ul.pl-20 li.mb-25 {
+    padding: 9px 20px 9px 16px;
+} */
+form#merchantBookingForm .booknow_new_bottom_line_v #mercjhant_booking_confirm {
+    width: 40% !important;
+    min-width: 40% !important;
+}
+/*for table done td th*/ 
+.tablete-none,   
+.my-table.booking-table table tr th:nth-child(6),
+.my-table.booking-table table tr th:nth-child(7),
+.my-table.booking-table table tr td:nth-child(6),
+.my-table.booking-table table tr td:nth-child(7),
+.my-table.service-list-table table tr th:nth-child(5),
+.my-table.service-list-table table tr td:nth-child(5),
+.my-table.service-list-table table tr th:nth-child(6),
+.my-table.service-list-table table tr td:nth-child(6){
+    display: none;
+}
+/*.new-input-vinu-bottom{
+    height:100px !important;
+}*/
+.checkout-new-page .btn.widthfit.mx-1{
+    width: 100% !important;
+    margin: 0.25rem 0rem !important;
+}
+.width-400 {
+    width: 100%;
+} 
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3{
+    position: relative;
+}
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3 .close-salon-icon{
+    position: relative;
+    right:auto;
+    margin-left: 16px;
+}
+.single-slider .slick-list{
+    overflow: hidden;
+    height: 260px;
+}
+.single-slider .slick-slide{
+    /* height: auto !important; */
+    height: 260px !important;
+    border-right: 1px solid #fff;
+}
+.single-slider .slider-full-img {
+    height: 260px !important;
+}
+.single-slider .slick-slide.slick-current.slick-active{
+    width: 400px !important;
+}
+.single-slider .slick-slide.slick-active,
+.single-slider .slick-slide.slick-cloned.slick-active{
+    width: 400px !important;
+}
+/*for table done td th*/
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) and (max-width: 1199px) { 
+/*for table done td th*/ 
+#merchantBookingForm .card-detail-new .deatail-box-right{
+    position: absolute;
+    right: 0;
+} 
+.align-requr-bottom {
+    bottom: auto;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex {
+    display: flex!important;
+    padding: 20px 1rem 20px 1rem;
+}
+.h-85 {
+    height: 89% !important;
+}    
+/*for table done td th*/ 
+.right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex {
+    display: flex!important;
+    padding: 20px 1rem 20px 1rem;
+}
+
+.tablete-none,   
+.my-table.booking-table table tr th:nth-child(6),
+.my-table.booking-table table tr th:nth-child(7),
+.my-table.booking-table table tr td:nth-child(6),
+.my-table.booking-table table tr td:nth-child(7){
+    display: none;
+}
+/*for table done td th*/
+.gj-picker div[role="navigator"] div[role="period"]{
+    font-size: 13px !important;
+}
+
+.left-side-dashbord ul.pl-20 li.mb-25 {
+    margin-bottom: 0rem;
+}
+.left-side-dashbord ul.pl-20 li.mb-25 a.a_hover_cyan.color333.font-size-14.fontfamily-medium .width30.display-ib.text-center.mr-2 {
+    margin-right: 0.25rem !important;
+}
+
+.no_favourite,.your_favourite{
+        width:100%!important;
+    }    
+    .small_box_input {
+        width: 25%!important;
+    }
+  
+.v_overflow_scroll .width200 {
+    width: 7rem;
+}    
+.yourfav-img-parent {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.fc-toolbar.fc-header-toolbar .fc-left{
+    width:320px!important;
+}
+.relative.bgwhite.border-w.border-radius4.pt-3.pb-3.pl-3.pr-3.mb-30 .overflow_elips{
+    width:190px!important;
+} 
+.row.row_new_v .col-20 {
+    width: 35%;
+}
+.row.row_new_v .col-80 {
+    width: 65%;
+}      
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right.d-inline-flex.align-items-center {
+    text-align: right!important;
+}   
+.booknow_new_bottom_line_v.mt-2 .deatail-box-right {
+    flex: 45%;
+}
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-right {
+    flex: 45%;
+}
+
+.booknow_new_bottom_line_v.mt-2 .width200{
+    width: auto!important;
+}
+.v_overflow_scroll .overflow_elips {
+    width: 220px;
+}
+.booknow_new_bottom_line_v.mt-2#my_cart_div .deatail-box-right .btn.selectedBtn.widthfit2.btn-ml-20.effect {
+    width: 60% !important;
+    min-width: 60% !important;
+}
+form#merchantBookingForm .booknow_new_bottom_line_v #mercjhant_booking_confirm {
+    width: 40% !important;
+    min-width: 40% !important;
+}
+.row.row_new_v {
+    width: 106%;
+    margin: 0 -10px;
+}
+.select_v {
+    width: 63px!important;
+    height: 116px;
+    border: 1px solid #D8D8D8;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding: 12px 0px;
+    margin: 0rem 4px!important;
+    cursor: pointer;
+    position: relative;
+}    
+.select_v p.font-size-14.color333.fontfamily-medium.mt-2{
+    font-size: 12px;
+}
+.btn-small.widthfit80v.ml-5{
+    margin-left: 20px !important;
+}
+.home_section1 .col-xl-12.col-lg-12.col-md-12.col-sm-12.col-xs-12 .relative.pl-45 .col-xl-4.col-lg-5.col-md-5.col-sm-12.col-xs-12 .relative.around-30.bgwhite.border-radius4.boxshadow-3.mt-40.home_sec1_form_block{
+    padding:1.95rem;
+}    
+.membership_payment_section2.v1 .relative.form-group-mb-50 .gj-datepicker.gj-datepicker-md.gj-unselectable{
+    width:50%!important;
+}
+
+.my-table{
+    overflow-y: auto;
+}
+
+.home_sec2_view_venues_img_block {
+    width: 290px;
+    height: 167px;
+    overflow: hidden;
+}
+.h_sec3_offer_listing_img_block {
+    width: 257px;
+    height: 148px;
+    overflow: hidden;
+}
+/*dashboard*/
+.header_dashbord .d-inline-flex.ml-auto.align-self-center{
+    margin-right:20px;
+}
+/**/
+.pt-25.uploaded-box {
+    padding-top:1rem;
+}
+.pt-25.uploaded-box p.mt-3.font-size-12{
+    font-size:0.625rem;
+    margin-top:5px !important;
+    margin-bottom: 0rem;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box:last-child{
+    margin-right:0rem;
+}
+.right-side-dashbord .uploaded-box img.uploaded-img,
+.right-side-dashbord .uploaded-box picture.uploaded-img{
+    width:auto;
+    height:100px;
+}
+.right-side-dashbord .bgwhite.box-shadow1.border-radius4.around-30 .display-ib.mr-20.ml-30{
+    margin:0rem 0.625rem;
+}
+.right-side-dashbord .col-lg-7 ,
+.right-side-dashbord .col-lg-5 {
+    padding:0rem 0.625rem;
+}
+
+/*user*/
+.my-table .table td, .my-table .table th {
+    padding: 15px 10px;
+    white-space: nowrap;
+}   
+.my-table .table td img.mr-3.width30,
+.my-table .table td picture.mr-3.width30{
+    margin-right:0.625rem !important;
+}
+.my-table .table td .overflow_elips{
+    width:100px;
+}
+.right-side-dashbord.detail {
+    padding-left: 180px;
+}
+.spacial-discount p.overflow_elips{
+    width:230px;
+}
+.image-map {
+    width: 100%;
+}
+.slider-full-img{
+    height:290px;
+}
+.header-container{
+    padding:0rem 30px;
+}
+
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0 .overflow_elips{
+    width: 350px !important
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0{
+    padding-left:1rem!important;
+}
+.fc-toolbar.fc-header-toolbar .fc-left {
+    /* right: 0!important; */
+    left: 90px !important;
+}
+#chg_fullClass #employeeForm {
+    position: absolute;
+}
+.fc-left h2{
+    width: 170px;
+    padding: 0px 5px !important;
+}
+.fc-toolbar.fc-header-toolbar {
+    height:55px;
+}
+.fc-button-group button.fc-prev-button,
+.fc-header-toolbar button.fc-next-button{
+    padding:0 4px !important;
+}
+.calender-droupdown {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom:10px;
+    clear: both;
+    display: inline-block;
+    float: none;
+}
+.fc-toolbar .fc-right {
+    right:60px!important;
+}
+.mobile-mb-20{
+        margin-bottom: 20px;
+    }
+.mobile-none {
+    display: block;
+}
+.my-table .table{
+    min-width: auto;
+    width: 100%;
+}
+.left-side-dashbord {
+    width: 70px;
+    height: 100vh;
+}
+.right-side-dashbord{
+    padding-left:90px;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box {    
+    background: #fff;
+    text-align: center;
+    margin-right: 12px;
+    flex: 1;
+    overflow: hidden;
+}
+.left-side-dashbord a span.colorwhite {
+    display: none;
+}
+.goprofile .mani_stars_count{
+    line-height: 17px;
+    font-size: 15px !important;
+} 
+.goprofile .mani_text_review{
+    line-height: 17px;
+}
+.bookingCountNoti{
+    right: 0px;
+    margin-top: -15px;
+}
+.bookingCancelNoti{
+    right:0px;
+    margin-top: -5px;
+    display: block;
+    padding: 0px 0px;
+    text-align: center;
+    line-height: 20px;
+}
+.checkout-new-page .btn.widthfit.mx-1{
+    width: 100% !important;
+    margin: 0.25rem 0rem !important;
+}
+.row.h-85 .relative.text-center .font-size-14.fontfamily-regular.mt-1.display-ib{
+    font-size:12px;
+}
+.bgwhite.border-radius4.box-shadow1.mb-60.mt-3 .appoin-listing-filter .my-new-drop-v span.color999.fontfamily-medium.font-size-14{
+    display:none;
+}
+#openRegisterPopup .modal-dialog.modal-lg{
+    min-width:900px;
+    max-width:900px;
+}
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3{
+    position: relative;
+}
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3 .close-salon-icon{
+    position: relative;
+    right:auto;
+    margin-left: 16px;
+}
+.fc-day-header.fc-widget-header {
+    font-size: 18px !important;
+}
+.fc-day-header.fc-widget-header.fc-today div span {
+    height: 30px;
+    width: 30px;
+    min-width: 30px;
+}
+.fc-day-header.fc-widget-header.fc-today div sup {
+    font-size: 12px !important;
+    padding-top: 5px !important;
+}
+.fc-day-header.fc-widget-header sup {
+    top: -2px !important;
+    font-size: 12px !important;
+    margin-left: 3px;
+}
+.single-slider .slick-list{
+    overflow: hidden;
+    height: 350px;
+}
+.single-slider .slick-slide{
+    /* height: auto !important; */
+    height: 350px !important;
+    border-right: 1px solid #fff;
+}
+
+.single-slider .slider-full-img {
+    height: 350px !important;
+}
+.single-slider .slick-slide.slick-current.slick-active{
+    width: 560px !important;
+}
+.single-slider .slick-slide.slick-active,
+.single-slider .slick-slide.slick-cloned.slick-active{
+    width: 560px !important;
+}
+}
+
+@media (min-width: 1199px) and (max-width: 1320px){
+    #marchant_update_profile .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-5{
+        position:relative;
+      }
+    .align-requr-bottom {
+        bottom: -20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        right: 0;
+        left: 0;
+    }
+.my-table{
+    overflow: auto;
+}
+.my-table table tr th,
+.my-table table tr td{
+    white-space: nowrap;
+}
+}
+    
+@media (min-width: 1200px) and (max-width: 1365px) {     
+.left-side-dashbord{
+    height: 95vh;
+}    
+.booknow_new_bottom_line_v.mt-2 .deatail-box-left .overflow_elips{
+    width: 250px;
+}    
+.home_banner_top_girl_img_block {
+    width: 380px;
+    height: 290px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    right: -43px;
+    margin-top: 0;
+    bottom: 0;
+}
+.home_banner_top_girl_img{
+    object-fit: contain;
+}
+img.width130.mlm-5,
+picture.width130.mlm-5{
+    z-index: 9;
+}
+.radio-btn .radio-round{
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+}    
+.fronted .row.row_new_v .col-20 {
+    width: 20%;
+} 
+
+.fronted .row.row_new_v .col-80 {
+    width: 80%;
+}    
+.backend .row.row_new_v .col-20 {
+    width: 25%;
+}
+.backend .row.row_new_v .col-80 {
+    width: 75%;
+}     
+.btn-small.widthfit80v.ml-5{
+    margin-left: 20px !important;
+}
+.v_overflow_scroll .width200 {
+    width: 7.5rem;
+}    
+.membership_payment_section2.v1 .relative.form-group-mb-50 .gj-datepicker.gj-datepicker-md.gj-unselectable{
+    width:50%!important;
+}
+.right-side-dashbord.right-side-dashbord-v1 .col-12.col-sm-9.col-md-9.col-lg-12.col-xl-9.pl-0 .overflow_elips{
+    width: 330px !important
+}
+.test-slider-v {
+    width: 65px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+.fc-toolbar.fc-header-toolbar .fc-left {
+    right: 6rem!important;
+    width: 374px;
+}
+.fc-toolbar.fc-header-toolbar .fc-left h2{
+    width:180px;
+}
+.select_v {
+    width: 76px!important;
+    height: 110px;
+}
+.mobile-none {
+    display: block;
+}
+/* .my-table .table td .overflow_elips {
+    width: auto!important;
+} */
+.my-table .table td .overflow_elips, .my-table .table td .overflow_elips em, .my-table .table td .overflow_elips+p {
+    white-space: nowrap;
+    max-width: 275px !important;
+}
+.bgwhite.box-shadow1.border-radius4.around-30.mt-0.mb-50 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips{
+    width: 265px!important;
+}
+.around-25.select-day-time.select-day-time .d-flex.w-100 .color333.fontfamily-light.font-size-12.display-ib.ml-10.mb-0.overflow_elips {
+    width: 260px;
+}
+#sale_by_ervice #allservice_listing tr td:first-child p{
+    width:250px !important;
+    white-space: normal;
+}
+/* .top-table-droup.d-flex.align-items-center .widthfit310v.cust_search,  */
+.pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+    min-width: 251px !important;
+    max-width: 251px !important;
+}
+.left-bar-dask + .right-side-dashbord .pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+    min-width: 197px !important;
+    max-width: 197px !important;
+}
+}
+/** Extra large devices (large desktops, 1400px and up)**/
+@media (min-width: 1400px) and (max-width: 1919px) { 
+    /** layout css **/
+    .my-table .table #allstaff_listing td .overflow_elips {
+        width: 86%;
+    }
+    .my-table.new-tablwe-1 .table tr td:first-child {
+        max-width: 380px;
+        min-width: 380px;
+    }
+    .my-table .table #allservice_listing tr td:first-child,
+    .my-table .table #allclient_listing tr td:first-child,
+    .my-table .table #allstaff_listing tr td:first-child{
+        max-width: 300px;
+        width: auto;
+    }
+    .my-table .table td .overflow_elips, .my-table .table td .overflow_elips em, .my-table .table td .overflow_elips+p {
+        white-space: nowrap;
+        max-width: 275px !important;
+    }
+    .right-side-dashbord  .my-table.booking-table .table td .overflow_elips{
+        max-width: 225px !important;
+        width: auto;
+    }
+    .left-bar-dask + .right-side-dashbord  .my-table.booking-table .table td .overflow_elips{
+        max-width: 180px !important;
+        width: auto;
+    }
+    /** header css **/
+
+    /** footer css **/
+    .fc-toolbar.fc-header-toolbar .fc-left{
+    width:415px!important;
+    }
+    .fc-left h2{
+        width:220px;
+    }
+    .right-side-dashbord{
+        min-height: 95vh;
+    }
+    /** mid-content css **/
+
+    /**/
+    .right-side-dashbord .border-radius4.relative.uploaded-box {
+        height: 130px;
+        background: #fff;
+        text-align: center;
+        margin-right: 18px;
+        flex: 1;
+    }
+    .right-side-dashbord .border-radius4.relative.uploaded-box:last-child{
+        margin-right:0rem;
+    }
+    .right-side-dashbord .border-radius4.relative.uploaded-box.pt-25{
+        padding-top:40px;
+    }
+    .right-side-dashbord .uploaded-box img.uploaded-img,
+    .right-side-dashbord .uploaded-box picture.uploaded-img{
+        width: 100%
+    }
+
+    /*user*/
+    .user_booking_list_section1 .bgwhite.border-radius4.box-shadow1 .top-table-droup .multi_sigle_select .dropdown-toggle::before {
+        height: 22px;
+        top: 3px;
+        right:2px;
+        width:24px;
+    }
+    .membership_plan_section1 {
+        height:499px;
+    }
+    .mobile-none {
+        display: block;
+    }
+    .min-height90vh {
+        height: 91vh;
+    }
+    .right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.large-width-fixed{
+        min-width: 100%;
+        padding-right: 380px;
+    }
+    .right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.large-width-fixed{
+        /* max-width: 29%; */
+        max-width: 370px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+    #marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3{
+        position: relative;
+    }
+    #marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3 .close-salon-icon{
+        position: relative;
+        right:auto;
+        margin-left: 16px;
+    }
+    .pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+        min-width: 310px !important;
+    }
+}
+@media(max-width: 1099px) and (min-width: 768px){
+    .d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3{
+        display: block !important;
+    }
+    .d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3 .dropdownMoreOption{
+        margin-bottom: 10px;
+    }
+    .d-flex.align-items-center.justify-content-around.py-3.border-t.mt-3 .dropdownMoreOption+a>.btn.ml-0.mr-0.widthfit{
+        min-width: 188px !important;
+    }
+    .user_profile_section1,.user_booking_list_section1,.user_booking_section1{
+        min-height: calc(100vh - 362px);
+    }
+}
+@media(max-width: 799px) and (min-width: 768px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:140px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 95px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 210px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 335px !important;
+    }
+}
+@media(max-width: 991px) and (min-width: 800px){
+    /* .fc-day-header.fc-widget-header sup,
+    .fc-day-header.fc-widget-header.fc-today div sup{
+        font-size: 12px !important;
+        white-space: nowrap;
+        width: auto;
+        min-width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 3px;
+        text-align: center;
+    }
+    .fc-day-header.fc-widget-header.fc-today div{
+        max-width: unset !important;
+    } */
+    /* .fc-day-header.fc-widget-header div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+    }
+    .fc-day-header.fc-widget-header.fc-today div{
+        left: 0px;
+        font-size: 18px !important;
+    }
+    .fc-day-header.fc-widget-header.fc-today div::after {
+        left: -30px;
+        right: 0;
+    } */
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:210px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 95px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 250px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 370px !important;
+    }
+}
+@media(max-width: 1099px) and (min-width: 992px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:120px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 95px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 220px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 300px !important;
+    }
+}
+@media(max-width: 1149px) and (min-width: 1099px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:155px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 95px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 300px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 380px !important;
+    }
+}
+@media(max-width: 1199px) and (min-width: 1150px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:190px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 120px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 320px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 400px !important;
+    }
+}
+@media(max-width: 1249px) and (min-width: 1200px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width:190px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 120px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 320px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 400px !important;
+    }
+}
+@media(max-width: 1299px) and (min-width: 1250px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 215px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 170px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 380px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 440px !important;
+    }
+}
+@media(max-width: 1349px) and (min-width: 1300px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 240px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 170px !important;
+    }
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 380px !important;
+    }
+    .right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .standard-duration-full+.max-width1350 .overflow_elips {
+        max-width: 460px !important;
+    }
+}
+@media(max-width: 1365px) and (min-width: 1350px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 283px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 193px !important;
+    }
+}
+@media(max-width: 1399px) and (min-width: 1366px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 310px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 216px !important;
+    }
+    .top-table-droup.d-flex.align-items-center .widthfit310v.cust_search, 
+    .pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+        min-width: 253px !important;
+    }    
+    .left-bar-dask + .right-side-dashbord .pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+        min-width: 197px !important;
+        max-width: 197px !important;
+    }
+}
+@media(max-width: 1451px) and (min-width: 1400px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 350px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 260px !important;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:first-child{
+        width: auto;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(2),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(3),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(4){
+        width: 260px;
+    }
+}
+@media(max-width: 1499px) and (min-width: 1450px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 380px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 290px !important;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:first-child{
+        width: auto;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(2),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(3),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(4){
+        width: 260px;
+    }
+}
+@media(max-width: 1550px) and (min-width: 1499px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 410px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 320px !important;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:first-child{
+        width: auto;
+    }
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(2),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(3),
+    .my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(4){
+        width: 260px;
+    }
+}
+@media(max-width: 1599px) and (min-width: 1550px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 450px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 360px !important;
+    }
+}
+@media(max-width: 1699px) and (min-width: 1600px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 500px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 410px !important;
+    }
+}
+@media(max-width: 1799px) and (min-width: 1700px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 506px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 416px !important;
+    }
+}
+@media(max-width: 1919px) and (min-width: 1800px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 570px !important;
+    }  
+    .left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+        max-width: 480px !important;
+    }
+}
+
+/** Extra large devices (large desktops, 1800px and up)**/
+@media (min-width: 1920px) {  
+.my-table.closed_date .table td .overflow_elips{
+    max-width:390px !important;
+}  
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3{
+    position: relative;
+}
+#marchant_update_profile .relative.px-3.py-3 .d-flex.w-100.align-items-center.mb-3.pt-3 .close-salon-icon{
+    position: relative;
+    right:auto;
+    margin-left: 16px;
+}
+.left-side-dashbord span#chgcancel_count::after{
+    width: 230px;
+    left: -175px;
+}
+.my-table.new-tablwe-1 .table tr td:first-child {
+    max-width: 600px;
+    min-width: 600px;
+}
+.my-table .table td .overflow_elips, 
+.my-table .table td .overflow_elips em, 
+.my-table .table td .overflow_elips+p {
+    white-space: nowrap;
+    max-width: auto !important;
+    width: auto !important;
+}
+.user_booking_list_section1 .my-table .table td .overflow_elips, 
+.user_booking_list_section1 .my-table .table td .overflow_elips em, 
+.user_booking_list_section1 .my-table .table td .overflow_elips+p {
+    white-space: nowrap;
+    max-width: 275px !important;
+}
+.my-table .table #allservice_listing tr td:first-child,
+.my-table .table #allclient_listing tr td:first-child,
+.my-table .table #allstaff_listing tr td:first-child{
+    max-width: 400px;
+    width: auto;
+}
+.header-container .navbar-nav .dropdown .dropdown-menu.box-shadow3{
+    width:300px;
+}
+.new-modal-full-page .modal-dialog, #add-service-modal .modal-dialog, #add-employee-modal .modal-dialog, #booking-details-modal .modal-dialog {
+    max-width: 810px !important;
+}
+#openLoginPopup .modal-dialog.modal-md.modal-dialog-centered{
+    max-width: 400px !important;
+}
+.right-side-dashbord{   
+    min-height: 96vh;
+}
+/** layout css **/
+.error_label {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: 'Poppins-Regular';
+    position: absolute;
+    color: #d93025;
+    padding: 0 0px;
+    margin-top: 5px;
+}
+.form-group-mb-50{
+    margin-bottom: 44px;
+}
+.login_register_sections .relative.align-self-center.w-100 h2.font-size-36.color333.fontfamily-medium.mb-60.text-center {
+    font-size:2.25rem;
+    margin-bottom: 3.125rem;
+    margin-top: 1.125rem;
+}
+.login_register_sections .relative.align-self-center.w-100 h2.font-size-36.color333.fontfamily-medium.mb-10.text-center {
+    font-size:2.25rem;
+    margin-bottom: 3.125rem;
+    margin-top: 1.125rem;
+}
+.login_register_sections .relative.align-self-start.w-100 h2.font-size-36.color333.fontfamily-medium.mb-60.text-center{
+    font-size:2.25rem;
+    margin-bottom: 3.125rem;
+    margin-top: 1.125rem;
+}
+#lrmrb_scroll {
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#userRegistration .col-xl-12.col-lg-12.col-md-12.col-sm-12.col-12 .form-group.form-group-mb-50.mb-1{
+    margin-bottom:24px!important;
+}
+/*dashboard*/
+.left-side-dashbord {
+    width: 75px;
+}
+.left-side-dashbord.left-bar-dask {
+    width: 240px;
+}
+.left-side-dashbord ul.pl-20{
+    padding-left:0px;
+}
+.left-side-dashbord+.right-side-dashbord,
+.left-side-dashbord+link+.right-side-dashbord,
+.left-side-dashbord.bgwhite.box-shadow1.pt-10.scroll-effect.hide-left-bar+.right-side-dashbord.w-100.pl-30.pr-30.relative {
+    padding-left: 95px !important;
+}
+.left-side-dashbord.left-bar-dask+.right-side-dashbord,
+.left-side-dashbord.left-bar-dask+link+.right-side-dashbord,
+.left-side-dashbord.left-bar-dask+link+link+link+link+link+style+style+.right-side-dashbord,
+.left-side-dashbord.bgwhite.box-shadow1.pt-10.scroll-effect.hide-left-bar.left-bar-dask+.right-side-dashbord.w-100.pl-30.pr-30.relative {
+    padding-left: 260px !important;
+}
+.right-side-dashbord.right-side-dashbord-v1  {
+    padding-left: 450px;
+    padding-right: 60px;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box {
+    height: 150px;
+    background: #fff;
+    text-align: center;
+    margin-right: 18px;
+    flex: 1;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box:last-child{
+    margin-right:0rem;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box.pt-25{
+    padding-top:40px;
+}
+.right-side-dashbord .uploaded-box img.uploaded-img,
+.right-side-dashbord .uploaded-box picture.uploaded-img{
+    width: 100%;
+    height:100%;
+}
+.large_image{
+    width: 1366px!important;
+    height: 100%!important;
+}
+.right-side-dashbord .border-radius4.relative.uploaded-box label{
+    line-height: 150px;
+}
+.right-side-dashbord .upload-box {
+    height: 290px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+/*user*/
+.user_booking_list_section1 .bgwhite.border-radius4.box-shadow1 .top-table-droup .multi_sigle_select .dropdown-toggle::before {
+    height: 25px;
+    top:2px;
+}
+.right-side-dashbord .bgwhite.border-radius4.box-shadow1 .top-table-droup .multi_sigle_select .dropdown-toggle::before {
+    height: 25px;
+    right:3px;
+}
+.Select-box{
+    width:50%;
+}
+.membership_plan_section1 {
+    background: url(../images/membership_plan_section1_bg.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 675px;
+}
+.membership_plan_section1 .row.pt-90{
+    padding-top:180px;
+}
+
+.fc-toolbar .fc-center {
+    display: inline-block !important;
+    height: 50px !important;
+    padding: 0px 20px !important;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+.fc-toolbar .fc-center h2 {
+    font-size: 20px !important;
+    line-height: 50px;
+}
+.fc-button-group button.fc-month-button {
+  padding: 0 1.25rem 0 3.75rem;
+  text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    border-radius: 4px 0px 0px 4px;
+    height: 50px;
+        width: 130px;
+
+}
+.fc-button-group button.fc-month-button::before{
+    content: '';
+    background-image: url(../images/m_month.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
+.fc-button-group button.fc-basicWeek-button{
+  padding: 0 1.25rem 0 3.75rem;
+  text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    height: 50px;
+        width: 130px;
+    border-left: 1px solid #e8e8e8;
+}
+.fc-button-group button.fc-basicWeek-button::before{
+    content: '';
+    background-image: url(../images/m_week.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
+ .fc-button-group button.fc-basicDay-button{
+  padding: 0 1.25rem 0 3.75rem;
+  text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    height: 50px;
+        width: 130px;
+    border-left: 1px solid #e8e8e8;
+}
+.fc-button-group button.fc-basicDay-button::before{
+    content: '';
+    background-image: url(../images/m_day.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
+.fc-button-group button.fc-listWeek-button {
+    padding: 0 1.25rem 0 3.75rem;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    border-radius: 0px 4px 4px 0px;
+    height: 50px;
+        width: 130px;
+        border-left: 1px solid #e8e8e8;
+}
+.fc-button-group button.fc-listWeek-button::before{
+    content: '';
+    background-image: url(../images/m_list.png);
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+}
+.fc-left button.fc-today-button{
+    padding: 0 1.25rem;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    border-radius: 0px 4px 4px 0px;
+    height: 50px;
+    margin-left: 0;
+    border-left: 1px solid #e8e8e8;
+}
+.fc-button-group button.fc-prev-button {
+    padding: 0 1.25rem;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    border-radius: 4px 0px 0px 4px;
+    height: 50px;
+
+}
+.fc-button-group button.fc-next-button {
+    padding: 0 1.25rem;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666666;
+    height: 50px;
+
+}
+.fc-day-grid-event {
+    margin: 5px 2px 0 !important;
+    padding: 10px 10px !important;
+    height: 130px;
+    font-size: 0.875rem !important;
+}
+.backend .row.row_new_v .col-20 {
+    width: 15%;
+}
+.backend .row.row_new_v .col-80 {
+    width: 85%;
+}
+.fronted .row.row_new_v .col-20 {
+    width: 20%;
+}
+.fronted .row.row_new_v .col-80 {
+    width: 80%;
+}
+.select_v {
+    width: 110px!important;
+}
+.slect-benner-bg {
+    right:-2px;
+}
+.mobile-none {
+    display: block;
+}
+.max-height530{
+    max-height: 650px;
+}
+.min-height90vh {
+    height: 93vh;
+}
+.right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.large-width-fixed{
+    min-width: 100%;
+    padding-right: 380px;
+}
+.right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.large-width-fixed{
+    /* max-width: 22%; */
+    max-width: 370px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.card-detail-new.v_overflow_scroll .overflow_elips {
+    max-width: 644px !important;
+}  
+.left-bar-dask+style+.right-side-dashbord #merchantBookingForm .card-detail-new.v_overflow_scroll .overflow_elips{
+    max-width: 535px !important;
+}
+.my-table.closed_date.calender-table.pb-4 .table tr td:first-child{
+    width: auto;
+}
+.my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(2),
+.my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(3),
+.my-table.closed_date.calender-table.pb-4 .table tr td:nth-child(4){
+    width: 390px;
+}
+.pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit310v.cust_search{
+    min-width: 310px !important;
+}
+}
+@media (min-width: 992px){
+    .right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-8.col-xl-8.large-width-fixed{
+        min-width: 100%;
+        padding-right: 380px;
+    }
+    .right-side-dashbord .mb-60.mt-20 .row .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4.large-width-fixed{
+        /* max-width: 22%; */
+        max-width: 370px;
+        position: absolute;
+        top: 70px;
+        right: 0;
+    }
+}
+
+@media (min-width: 1921px) and (max-width: 4400px) { 
+    .fc-toolbar.fc-header-toolbar .fc-left{
+        width:421px;
+    }
+    .fc-left h2{
+        width:220px;
+    }
+    .new_tab_profile_v.nav-tabs .nav-link {
+        padding: 1rem 1.25rem;
+        width: 155px;
+    }
+    .mobile-none {
+        display: block;
+    }
+    .fc-scroller{
+        height:auto !important;
+        }
+    .min-height90vh {
+        height: 93vh;
+    }    
+    .min-height74vh {
+        height: 74vh;
+        padding-bottom:100px;
+    }   
+    .left-bar-dask+style+.right-side-dashbord {
+        padding-left: 260px !important;
+    }        
+}
+@media (min-width: 2100px) and (max-width: 2499px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 700px !important;
+    }
+}
+@media (min-width: 2500px) and (max-width: 3000px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 1000px !important;
+    }
+}
+@media (min-width: 3001px) and (max-width: 4000px){
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 1300px !important;
+    } 
+}
+@media (min-width:4401px){
+    .left-bar-dask+style+.right-side-dashbord {
+        padding-left: 260px !important;
+    }
+    .fc-toolbar.fc-header-toolbar .fc-left {
+        width:470px;
+        height: 60px;
+    }
+    .fc-header-toolbar button.fc-next-button,
+    .fc-button-group button.fc-prev-button,
+    .fc-left button.fc-today-button,
+    .fc-right .fc-agendaWeek-button,
+    .fc-right .fc-agendaThreeDay-button,
+    .fc-right .fc-agendaDay-button,
+    .fc-toolbar.fc-header-toolbar .fc-right{
+        height:60px!important;
+    }
+    .fc-left h2{
+        line-height: 60px!important;
+        height:60px!important;
+        width:225px;
+    }
+    .fc-toolbar .fc-right {
+        right:300px!important;
+    }
+    .calender-droupdown button.btn.btn-default {
+        height:60px!important;
+    }
+    .left-side-dashbord.left-bar-dask {
+        width: 350px;
+    }
+    .relative.mt-20.mb-60.bgwhite.around-20 .display-ib.ml-auto.v_custome_button .btn.btn-large.widthfit{
+        height:60px!important;
+    }
+    .mobile-none {
+        display: block;
+    }
+    .fc-scroller{
+        height:auto !important;
+    }
+    .card-detail-new.v_overflow_scroll .overflow_elips {
+        max-width: 1300px !important;
+    } 
+}
+
+@media(max-width: 991px){
+    .thankyou_top_img_block2{
+        width: 115px;
+        height: 98px;
+    }
+    .result{
+        width: 100%;
+    }
+    .col-xl-4.large-width-fixed{
+        height: auto;
+    }
+    .col-xl-4.large-width-fixed::after{
+       display: none;
+    }
+    .col-md-12.col-lg-4.col-xl-4.large-width-fixed .relative.border-radius4.p-4::after{
+        right: 0px;
+    }
+    .align-requr-bottom {
+        bottom: auto;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .waves-effect.waves-block.waves-light.toggle-fullscreen.display-ib{
+        display:none;
+    }
+    .v_custome_button {
+        position: absolute;
+        right: 20px !important;
+    }
+    #profile-client-view-modal .btn-group.multi_sigle.select.widthfit80.mr-20.display-ib,
+    #profile-client-view-modal .btn-group.multi_sigle_select.widthfit80.mr-20.display-ib,
+    #profile-client-view-modal .btn-group.multi_sigle_select.widthfit80.mr-20.ml-2.display-ib,
+    #profile-client-view-modal .btn-group.multi_sigle_select.widthfit2.mr-20.ml-20{
+        margin-right: 0.25rem !important;
+        margin-left:0.25rem !important;
+        margin-bottom: 0.5rem;
+    }
+    #profile-client-view-modal .btn-group.multi_sigle_select.widthfit2.mr-20.ml-20{
+        min-width:90px !important;
+    }
+    .new-input-vinu-bottom::placeholder,
+    .new-input-vinu-bottom {
+        font-size: 20px !important;
+    }
+    .new-input-vinu-bottom {
+    height: 60px !important;
+        padding: 1rem 0rem !important;
+    }
+    #clientViewProfileHtml .bgwhite.border-radius4.box-shadow1.small-mb-30{
+        margin-bottom: 60px !important;
+    }
+}
+@media(max-width: 767px){
+    .home_banner_top_girl_img_block {
+        max-width: 440px;
+        height: 343px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 40px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 0;
+        right: 0;
+    }
+    .home_banner_top_girl_img_block #vimeo_player {
+        left: 0 !important;
+        width: 100%;
+        height: 100%;
+    }
+    .fa-star-half.fontsize-22 {
+        margin-left: -28px;
+    }
+    .single-slider .slick-track{
+        min-width: auto !important;
+    }
+    .more-opciton-bottom-set{
+        bottom: auto;
+    }
+    .search-reting-parent{
+        display: block;
+    }
+    .fc-day-header.fc-widget-header.fc-today div,
+    .fc-day-header.fc-widget-header div{
+        display: block;
+        text-align: center;
+        font-size: 18px !important;
+    }
+    .fc-day-header.fc-widget-header div span{
+        display: block;
+        width: 100%;
+        height: 30px;
+    }
+    .fc-day-header.fc-widget-header div sup{
+        width: 100%;
+        display: block;
+        margin: auto;
+        display: inline-block;
+        min-width: auto;
+        max-width: initial;
+        width: auto;
+    }
+    .fc-day-header.fc-widget-header.fc-today div{
+        display: block;
+        text-align: center;
+    }
+    .fc-day-header.fc-widget-header.fc-today div span{
+        margin: auto;
+        margin-bottom: 2px;
+    }
+    .fc-unthemed .fc-head th{
+        height: auto;
+        white-space: nowrap;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    /* .fc-day-header.fc-widget-header sup,
+    .fc-day-header.fc-widget-header.fc-today div sup{
+        font-size: 12px !important;
+        white-space: nowrap;
+        width: auto;
+        margin: auto;
+        min-width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 8px;
+        display: block;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 18px;
+        text-align: center;
+    }
+    .fc-day-header.fc-widget-header.fc-today div{
+        max-width: unset !important;
+    }
+    .fc-day-header.fc-widget-header.fc-today div{
+        left: 0px;
+    }
+    .fc-day-header.fc-widget-header.fc-today div::after {
+        left: 0px;
+        right: 0;
+        top: -4px;
+        margin: auto;
+        height: 28px;
+        width: 28px;
+    }   */
+    
+    #openRegisterPopup .modal-content {
+        overflow: hidden;
+        max-height: 100%;
+    }
+    #openRegisterPopup .modal-dialog.modal-lg{
+        min-width:90%;
+        max-width:90%;
+    }
+    #openRegisterPopup .modal-dialog.modal-lg .modal-body .login_register_main_left_block_overlay.around-50 {
+        left: 0px;
+        width: 100%;
+        padding: 1.125rem;
+        height: 200px !important;
+    }
+    #openRegisterPopup .modal-dialog.modal-lg .modal-body .relative.align-self-center.login_register_main_right_block.w-100#lrmrb_scroll {
+        max-height: 100%;
+        min-width: auto;
+        padding-top: 0px;
+        height: auto;
+    }
+    #openRegisterPopup .modal-content .relative.absolute.left.right.mb-60.text-center {
+        bottom: 0;
+        margin-bottom: 0;
+    }
+    .sticky-calender-top{
+        opacity: 0;
+        padding:0rem 15px !important;
+        font-size: 16px !important;
+    }
+    .sticky-calender-top.fixed-top-add{
+        opacity: 1;
+    }
+    .comform-table table tr td:first-child{
+        max-width: 290px;
+    }
+    .my-new-drop-v1 {
+        right: 9px;
+        top: -46px;
+    }   
+    #tab-box1 .bgwhite.pt-15.pb-15.pl-25.mt-3,
+    #tab-box1 .bggreengradient.pt-15.pb-15.pl-25.mt-3{
+        padding: 10px;
+    }
+    .pl-20.pr-20#adddetail_message{
+        padding-left:0px !important;
+        padding-right: 0px !important;
+    }
+    #app_popup .font-size-30{
+        font-size: 24px;
+    }
+    #app_popup .d-flex.h-100.justify-content-center.align-items-center img,
+    #app_popup .d-flex.h-100.justify-content-center.align-items-center picture{
+        width: 200px;
+        margin-top: 10px;
+    }
+    .sevice_provider_section2 .fontsize-22 {
+        font-size: 18px;
+        vertical-align: top;
+    }
+    .sevice_provider_section2 .mr-2{
+        margin-right: 0.25rem!important;
+    }
+    .sevice_provider_section4 h6.font-size-16{
+        margin-top: 20px;
+    }
+    .alert.alert-danger1.absolute.vinay.top.mt-20.alert-top-0{
+        top:45px !important;
+    }
+    .sticky-top80-fixed{
+        position: relative!important;
+        top:0rem;
+    }
+    .sticky-top80-fixed::before,
+    .sticky-top80-fixed::after{
+        display: none;
+    }
+    .left-side-search .mobile-none{
+        display: none;
+    }
+    .mobile-btn-show {
+        display: inline-block;
+        float:  right;
+        margin-bottom: 0px!important;
+        margin-top:-56px; 
+        width: 60px;
+        position: relative;
+        z-index: 0;
+    }
+    .mobile-btn-show .btn-border-orange{
+        padding:0px 3px;
+    }
+    .order-1.order-sm-1.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12{
+        padding-right:85px;
+    }
+
+    .no_favourite,.your_favourite{
+        width:100%!important;
+      }
+    .small_box_input {
+        width: 25%!important;
+    }
+    #chgPassword .mt-50.mb-50.pl-25.pr-25.text-center {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    } 
+    .mobile-show-col{
+        z-index: 99;
+        cursor: pointer;
+        transition:linear 1s;
+    }
+    .max-height530{
+        max-height: auto;
+        margin-bottom: 20px;
+    }
+    .on-hover-div{
+        padding: 20px 0px;
+    }
+    .on-hover-div .inner-hover-div>span{
+        display: block;
+        width: 60px;
+    }
+    .new-input-vinu-bottom::placeholder,
+    .new-input-vinu-bottom {
+        font-size: 20px !important;
+    }
+    .new-input-vinu-bottom {
+    height: 60px !important;
+        padding: 1rem 0rem !important;
+    }
+    .search-icon-wala-popup .full-popup {
+        position: relative;
+    }
+    .left-side-dashbord a span.colorwhite {
+        display: inline-block;
+    }
+    .menu-toggle,
+    .left-side-dashbord ul.pl-20 li.mb-25:first-child{
+        display: none !important;
+    }
+    .tablete-none{
+        display: none;
+    }
+    .my-table .table{
+        width: 100%;
+    }
+    .my-table .table td, .my-table .table th{
+        white-space: nowrap;
+    }
+    .checkout-new-page .relative.around-20.min-height89vh.scroll-effect{
+        height: auto;
+        max-height: 100%;
+        overflow: auto;
+        /* padding: 20px 5px 20px 5px; */
+    }
+    .checkout-new-page .bgwhite.border-l.min-height90vh.scroll-effect{
+        height: auto;
+        overflow: auto;
+    }
+    .checkout-new-page .d-flex.w-100.min-height74vh{
+        height: 300px;
+    }
+    .checkout-new-page .on-hover-div {
+        padding: 20px 20px;
+    }
+    .checkout-new-page .col-12.col-sm-12.col-md-4.col-lg-4.col-xl-4.pr-0{
+        padding-right: 1rem !important;
+    }
+    #add-service-modal .around-30.pb-30{
+        padding:15px !important;
+    }
+    #search-wala-modal .modal-content {
+        height: auto;
+    }
+    .marchand-registration .text-right {
+        text-align: center !important;
+    }
+    .marchand-registration .fontsize-34{
+        font-size: 28px;
+    }
+    .marchand-registration .fontsize-18 {
+        font-size: 14px;
+    }
+    .salon-registration-right-img {
+        width: 16px;
+        margin-right: 6px;
+        margin-top: 2px;
+    }
+    .marchand-registration ul.mb-4{
+        padding-left:30px;
+    }
+    .btn.mb-2.regiscroll{
+        margin-bottom: 30px !important;
+    }
+    .login_register_sections .font-size-30.mb-5{
+        font-size: 24px;
+        margin-bottom: 24px !important;
+    }
+    .single-slider .slick-list{
+        overflow: hidden;
+        height: 260px;
+    }
+    .single-slider .slick-slide{
+        /* height: auto !important; */
+        height: 100% !important;
+        border-right: 1px solid #fff;
+    }
+    .single-slider .slider-full-img {
+        height: 100% !important;
+    }
+    .single-slider .slick-slide.slick-current.slick-active{
+        width: 440px;
+    }
+    .single-slider .slick-slide.slick-active,
+    .single-slider .slick-slide.slick-cloned.slick-active{
+        width: 440px;
+    }
+    .single-slider .slick-dots{
+        bottom: 45px !important;
+    }
+    .single-slider .slick-dots li button:before{
+        content: '';
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        border:1px solid #fff;
+        opacity: 1;
+    }
+    .single-slider .slick-dots li.slick-active button:before{
+        background: #fff;
+    }
+    #addServiceHtml .mt-4{
+        margin-top: 40px !important;
+    }
+    #addEmployeeHtmlPopup .around-30.mt-0.mb-3.pt-0 > .d-flex {
+        display: block !important;
+    }
+    #addEmployeeHtmlPopup .checkbox-btn {
+        margin-bottom: 26px;
+    }
+    #addEmployeeHtmlPopup .bgwhite.border-radius4.box-shadow1.mb-0.pb-1 .p-3,
+    #frmmyEmployee_report .around-30:first-child{
+        padding: 1rem 0rem !important;
+    }
+    #addEmployeeHtmlPopup .around-30.mt-0.mb-3.pt-0{
+        padding: 0px 0rem 0px 0rem !important;
+    }    
+    #addEmployeeHtmlPopup .around-30.mt-0.mb-3.pt-0 .display-ib.mr-20.ml-auto{
+        margin-left: 0px !important;
+    }
+}
+@media(max-width: 1200px){
+    .canvasjs-chart-canvas{
+        width: 100% !important;
+    }
+    .right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex{
+        display: block !important;
+        padding:20px 1rem 20px 1rem;
+    }
+    #profile-client-view-modal .pt-20.pb-20.pl-30.pr-20.relative.d-flex{
+        display: block !important;
+        padding:20px 1rem 20px 1rem;
+    }
+    .right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex .my-new-drop-v.display-ib.ml-20,
+    .right-side-dashbord.w-100.pl-30.pr-30 .pt-20.pb-20.pl-30.pr-20.relative.d-flex .widthfit80.mr-2.ml-20{
+        margin-right: 0.25rem !important;
+        margin-left: 0.25rem !important;
+    }
+    .pt-10.pb-10.pl-30.pr-30.relative.top-table-droup.d-flex.align-items-center{
+        display: block !important;
+    }
+    #servicedate_custom_filter,#staffdate_custom_filter,#clientdate_custom_filter{
+        display: inline-block !important;
+    }
+    #profile-client-view-modal .modal-lg {
+        max-width: 1199px;
+        margin-right: 1rem;
+        margin-left:1rem;
+    }
+}
+
+@media(min-width:575px){
+    #appLinksMobile {
+            display: none;
+        }
+}
+
+@media(max-width:575px){    
+    #chg_fullClass .v_custome_button {
+        position: absolute!important;
+        top: 21px;
+    }    
+    #openRegisterPopup .modal-dialog.modal-lg {
+        min-width: 98%;
+        max-width: 98%;
+    }
+    #openRegisterPopup .modal-dialog.modal-lg .modal-body .login_register_main_left_block_overlay.around-50 {
+        height: 240px !important;
+    }    
+    #add-service-modal .around-30.pb-30{
+        padding: 15px 0px !important;
+    }
+
+    #appLinks{
+        display: none;
+    }
+
+    #appLinksMobile{
+        display: block;
+    }
+}
+
+@media(max-width:1320px){ 
+    .tooltip.tooltip-custom[x-placement^=bottom] .arrow::before{        
+        transform: rotate(-135deg);
+        bottom: -6px;
+        top: auto;
+    }
+}

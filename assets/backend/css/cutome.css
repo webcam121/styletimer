@@ -1,0 +1,23 @@
+.error{
+  color:red;
+}
+#eyedrop_div {
+    margin-top: 40px;
+ }
+
+.add_new_eyedrop {
+    margin-bottom: 40px;
+}
+
+.eyedrop_sec{
+ margin-bottom: 20px;
+ border: 1px solid gray;
+ padding: 15px;
+ width: 75%;
+ margin-left: 10%;
+}
+
+.tableImage {
+    width: 70px;
+}
+.fr-toolbar.fr-desktop.fr-top.fr-basic.fr-sticky-off{z-index: 0 !important;}

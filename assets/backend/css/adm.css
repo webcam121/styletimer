@@ -1,0 +1,13 @@
+form#adm-login {
+    padding-top: 120px;
+}
+
+.adm-msg{
+margin-top:50px; 
+}
+.adm-msg .alert.alert-danger{
+   width: 50%;
+   text-align: center;
+   margin: 0 auto;
+}
+    

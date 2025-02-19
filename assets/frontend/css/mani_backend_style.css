@@ -1,0 +1,307 @@
+/** start header section  **/
+
+/** start footer section  **/
+
+/** start layout section  **/
+.login_facebook_btn{
+    background: #3B5998;
+}
+.login_facebook_btn .fa-facebook-f{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(255,255,255,0.14);
+    border-radius: 4px 0px 0px 4px;
+}
+.login_google_btn{
+    background: #EA4335;
+}
+.login_google_btn .fa-google-plus-g{
+    width: 40px;
+    height: 40px;
+    padding: 7px;
+    background: rgba(255,255,255,0.14);
+    border-radius: 4px 0px 0px 4px;
+}
+.error_label{
+	font-size: 10px;
+	line-height: 12px;
+	font-family: 'Poppins-Regular';
+	position: absolute;
+	color: #d93025;
+	padding: 0 0px;
+	margin-top: 2px;
+}
+
+.form-group-mb-50 {
+    margin-bottom: 30px;
+}
+.login_register_sections .relative.align-self-center.w-100 h2.font-size-36.color333.fontfamily-medium.mb-60.text-center {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-top: 0.125rem;
+}.login_register_sections .relative.align-self-center.w-100 h2.font-size-36.color333.fontfamily-medium.mb-10.text-center {
+    font-size: 24px;
+    margin-bottom: 1.125rem;
+    margin-top: 1.125rem;
+}
+.login_register_sections .relative.align-self-start.w-100 h2.font-size-36.color333.fontfamily-medium.mb-60.text-center {
+    font-size: 24px;
+    margin-bottom: 1.125rem;
+    margin-top: 1.125rem;
+}
+
+#lrmrb_scroll{
+    min-height: auto;
+    height:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top:20px;
+    scrollbar-color:#00949d #ffffff;
+    scrollbar-width:thin;
+}
+.relative.align-self-center.d-flex.flex-row.login_register_main_right_block.w-100.mobile-mt-75#lrmrb_scroll .align-self-center{
+    align-self: center!important;
+}
+
+#lrmrb_scroll .align-self-center{
+    align-self: start!important;
+}
+
+#lrmrb_scroll::-webkit-scrollbar{
+	width:0.3125rem;
+	background-color:#fff;
+    border-radius: 0.625rem;
+} 
+#lrmrb_scroll::-webkit-scrollbar-thumb{
+	background-color:#00949d;
+	border-radius:0.625rem;
+}
+#lrmrb_scroll::-webkit-scrollbar-track{
+	border:0.3125rem solid #fff;
+	border-radius:0.625rem;
+}
+
+.inp_select {
+ position: relative;
+ margin: auto;
+ width: 100%;
+}
+.inp_select .label {
+ position: absolute;
+ z-index: 1;
+ top: 10px;
+ left: 16px;
+ font-size: 0.875rem;
+ color: #999;
+ transform-origin: 0 0;
+ transition: all 0.2s ease;
+}
+
+.inp_select.show button {
+ -webkit-appearance: none;
+ /*border-bottom: 2px solid #c8ccd4;*/
+ transition: all 0.15s ease;
+}
+.inp_select.show button:not(:placeholder-shown) + .label {
+ color: #999;
+ transform: translateY(-30px) translateX(-15px) scale(0.75);
+ padding: 0 0px;
+ font-size: 14px;
+}
+.inp_select.show .label {
+   color: #999;
+   transform: translateY(-30px) translateX(-15px) scale(0.75);
+   font-size: 14px;
+   padding: 0 0px;
+}
+.inp_select .label.label_add_top {
+   color: #999;
+   transform: translateY(-30px) translateX(-15px) scale(0.75);
+   font-size: 14px;
+   padding: 0 0px;
+}
+
+#employee-not-available .inp_select.show button:not(:placeholder-shown) + .label{
+    transform: translateY(-36px) translateX(-15px) scale(0.75);
+}
+
+/** start mid-content section  **/
+.login_register_sections{
+	background: #fff;
+}
+.login_register_main_left_block{
+    /* background-image: url('../images/login_register_bg_img1.png');
+    background-size: cover;
+    background-position: center top; */
+    width: 100%;
+    height: 100vh;
+}
+.login_register_main_left_block_overlay{
+	width: 100%;
+    height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: -moz-linear-gradient( 45deg, rgba(0,179,190,0.88) 0%, rgba(0,148,157,0.88) 100%);
+    background: -webkit-linear-gradient( 45deg, rgba(0,179,190,0.88) 0%, rgba(0,148,157,0.88) 100%);
+    background: -ms-linear-gradient( 45deg, rgba(0,179,190,0.88) 0%, rgba(0,148,157,0.88) 100%);
+}
+.lrmlbo_logo_icon{
+	width: 300px;
+}
+.thankyou_top_img_block2{
+    width: 147px;
+    height: 126px;
+    overflow: hidden;
+    margin: 0 auto;  
+}
+.thankyou_top_img2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: top center;     
+}
+.thankyou_mid_line_img{
+    width:80%;
+}
+.add_employee_uploaded_img{
+	width: 115px;
+	height: 115px;
+}
+.add_employee_camera_icon_block{
+    position: absolute;
+    left: 75px;
+    right: 0px;
+    bottom: 5px;	
+}
+.add_employee_camera_icon{
+	width: 23px;
+	height: 23px;	
+}
+
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.fc-event, .fc-event-dot {
+    background-color: #FF9944;
+}
+.fc-event {
+    position: relative;
+    display: block;
+    font-size: .85em;
+    line-height: 1.3;
+    border-radius: 3px;
+    border: 1px solid #FF9944;
+}
+.fc-title{
+  color: #fff;
+}
+.fc-time{
+  color: #fff;  
+}
+#calendar {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.header-container .navbar-nav .dropdown .dropdown-menu.box-shadow3 {
+    box-shadow: 0rem 0rem 0.625rem rgba(98,104,124,.15);
+    border: none;
+    padding: 0.625rem 0rem !important;
+
+}
+.nav-item.r_l_s_s_h_dekstop .dropdown-menu.box-shadow3.mt-10.show li.mb-10{
+    padding: 0.25rem 1rem;   
+    margin-bottom: 0px;
+}
+.nav-item.r_l_s_s_h_dekstop .dropdown-menu.box-shadow3.mt-10.show li.mb-10:hover, 
+.nav-item.r_l_s_s_h_dekstop .dropdown-menu.box-shadow3.mt-10.show li.mb-10:focus{
+background-color: #E8E8E8;
+}
+
+.clockpicker-button:hover {
+    background: -moz-linear-gradient( 45deg, rgb(252,96,118) 0%, rgb(255,153,68) 100%) !important;
+    background: -webkit-linear-gradient( 45deg, rgb(252,96,118) 0%, rgb(255,153,68) 100%) !important;
+    background: -ms-linear-gradient( 45deg, rgb(252,96,118) 0%, rgb(255,153,68) 100%) !important;
+    background-image: none;
+}
+
+.user_booking_conform_section1 .bgwhite.border-radius4.box-shadow1.mb-60.mt-60{
+    min-height: 418px;
+}
+/* **************************** */
+.d-inline-flex.booking-dtl-mdl-rw {
+    width: 100%;
+}
+.booking-dtl-mdl-rw-lft::after {
+    content: ':';
+    position: absolute;
+    right: 25px;
+}
+#confetti-canvas{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

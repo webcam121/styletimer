@@ -1,0 +1,725 @@
+ <?php 
+ $optArr = array('5'=>'5 Min.','10'=>'10 Min.','15'=>'15 Min.','20'=>'20 Min.','25'=>'25 Min.','30'=>'30 Min.','35'=>'35 Min.','40'=>'40 Min.','45'=>'45 Min.','50'=>'50 Min.','55'=>'55 Min.','60'=>'1h','65'=>'1h 5 Min.','70'=>'1h 10 Min.','75'=>'1h 15 Min.','80'=>'1h 20 Min.','85'=>'1h 25 Min.','90'=>'1h 30 Min.','95'=>'1h 35 Min.','100'=>'1h 40 Min.','105'=>'1h 45 Min.','110'=>'1h 50 Min.','115'=>'1h 55 Min.','120'=>'2h','135'=>'2h 15 Min.','150'=>'2h 30 Min.','165'=>'2h 45 Min.','180'=>'3h','195'=>'3h 15 Min.','210'=>'3h 30 Min.','225'=>'3h 45 Min.','240'=>'4h','255'=>'4h 15 Min.','270'=>'4h 30 Min.','285'=>'4h 45 Min.','300'=>'5h','315'=>'5h 15 Min.','330'=>'5h 30 Min.','345'=>'5h 45 Min.','360'=>'6h');
+ 
+  ?>
+  <style type="text/css">
+
+#assign_user{
+	text-transform: none !important;
+ }
+</style> 
+ <form class="relative" method="post" id="add_category" action="<?php echo base_url('merchant/add_service'); ?>">
+ 			<div class="modal-header-new">
+			  	<div class="absolute right top mt-0 mr-0">
+				  <a href="javascript:void(0)" data-dismiss="modal" class="crose-btn font-size-30 color333 a_hover_333">
+					<picture class="" style="width: 22px; height: 22px;">
+						<source srcset="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.webp'); ?>" type="image/webp" class="" style="width: 22px; height: 22px;">
+						<source srcset="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.png'); ?>" type="image/png" class="" style="width: 22px; height: 22px;">
+						<img src="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.png'); ?>" class="" style="width: 22px; height: 22px;">
+					</picture>  
+					</a>
+				</div>   
+	        	<h3 class="font-size-20 fontfamily-medium color333 text-center"><?php echo (!empty($service->id) && empty($duplicate))?$this->lang->line('edit_service'):'Service anlegen'; ?></h3>
+	            
+			</div>
+			  <?php if(!empty($service) && empty($duplicate)){ ?>
+				  <input type="hidden" name="id" value="<?php echo url_encode($service->id); ?>">
+			  <?php  } ?>
+              <div class="mt-4">
+              	
+                <div class="around-30 pb-30">
+
+                  <div class="row">
+                   <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                      <div class="form-group form-group-mb-50">
+
+                        <div class="btn-group multi_sigle_select inp_select">
+                              <span class="label <?php if(!empty($service->category_id)) echo "label_add_top"; ?>"><?php echo $this->lang->line('Sevice_Category'); //$this->lang->line('Category'); ?></span>
+                              <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" id="cat_btn"></button>
+                          <ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll" x-placement="bottom-start">
+							  <?php if(!empty($category)){
+								  foreach($category as $cat){ ?>
+									<li class="radiobox-image">
+									  <input type="radio" id="id_cat<?php echo $cat->id; ?>" name="category" class="select_cat" data-val="<?php echo $cat->category_name; ?>" value="<?php echo $cat->id; ?>" <?php if(!empty($service->category_id) && $cat->id==$service->category_id) echo "checked" ?>>
+									  <label for="id_cat<?php echo $cat->id; ?>">
+										<?php echo $cat->category_name; ?>
+									  </label>
+									</li>
+                            <?php } } ?>
+
+                          </ul>
+
+                       </div>
+                        <label style="top:40px;" class="error" id="catgory_err"></label>
+                     </div>
+                    </div> -->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                      <div class="form-group form-group-mb-50">
+                       <div class="btn-group multi_sigle_select inp_select">
+                              <span class="label <?php if(!empty($service->filtercat_id)) echo "label_add_top"; ?>"><?php echo $this->lang->line('Category');?></span>
+                              <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" id="fcat_btn"></button>
+                          <ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll"
+					  x-placement="bottom-start" style="max-height: 323px !important;overflow-x: auto;">
+							  <?php if(!empty($filtercategory)) {
+								  foreach($filtercategory as $subcat){ ?>
+								  	<li class="radiobox-image" style="background:#00b3bf9e; text-align:center;">
+										<label style="color:black;">
+											<?php echo $subcat->category_name?>
+										</label>
+									</li>
+									<?php foreach($subcat->sub_category as $fcat) {
+										?>
+										<li class="radiobox-image">
+										<input type="radio" id="id_fcat<?php echo $fcat['my_cat_id']; ?>" name="filtercategory" class="select_fcat" data-val="<?php echo $fcat['category_name']; ?>" value="<?php echo $fcat['my_cat_id']; ?>" <?php if(!empty($service->filtercat_id) && $fcat['my_cat_id']==$service->filtercat_id) echo "checked" ?>>
+										<label for="id_fcat<?php echo $fcat['my_cat_id']; ?>">
+											<?php echo $fcat['category_name']?>
+										</label>
+										</li>
+                            <?php } } }?>
+
+                          </ul>
+
+                       </div>
+                     <label style="top:40px;dispaly:block !important;" class="error" id="fcatgory_err"></label>
+                   </div>
+                  </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                      <div class="form-group form-group-mb-50">
+                      <div class="btn-group multi_sigle_select inp_select">
+                        <span class="label <?php if(!empty($service->subcategory_id)) echo "label_add_top"; ?>">
+						<!-- Service -->
+						<?php echo $this->lang->line('Sub_Category'); ?></span>
+                        <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" id="subCat_btn" <?php if(empty($service->id)) echo 'disabled'; ?>></button>
+                        <ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll"
+				     x-placement="bottom-start" id="sub_category" 
+					style="max-height: 320px !important;overflow-x: auto !important;">
+						    <?php if(!empty($subcategory)){
+								foreach($subcategory as $subcat){
+									$check="";
+									if($subcat->id==$service->subcategory_id){
+										$check="checked";
+										}
+									 echo '<li class="radiobox-image"><input type="radio" id="id_subcat'.$subcat->id.'" name="sub_category" data-val="'.$subcat->category_name.'" value="'.$subcat->id.'" '.$check.'><label for="id_subcat'.$subcat->id.'">'.$subcat->category_name.'</label></li>';  } }else{ ?>
+										 
+										 <li class="radiobox-image"><input type="radio" id="" name="" value=""><label for="id_subcat">First choose category </label></li>
+										 <?php } ?>
+
+                        </ul>
+                     </div>
+                     <label style="top:40px;dispaly:block !important;" class="error" id="subcatgory_err"></label>
+                   </div>
+                  </div>
+                   <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                 	
+                    <div class="form-group mobile1-mb-40" id="name_validate">
+                         <label class="inp">
+                           <input type="text" placeholder="&nbsp;" value="<?php if(!empty($service->name)) echo $service->name; ?>" name="name" class="form-control">
+                           <span class="label"><?php echo $this->lang->line('Service_servicename');//$this->lang->line('Service_Name'); ?> </span>
+                         </label>
+                     </div>
+
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="form-group mobile1-mb-40">
+                      <div class="btn-group multi_sigle_select inp_select">
+                              <span class="label <?php if(!empty($assigned_user)) echo "label_add_top"; ?>"><?php echo $this->lang->line('Assigned_To'); ?></span>
+                              <button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" id="assign_user" <?php if(empty($service->id)) echo 'disabled'; ?>></button>
+                        <ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll"
+				    style="overflow-x: auto !important;max-height: 100px !important;" >
+					      <?php if(!empty($users)){
+							  foreach($users as $user){ ?>
+                          <li class="checkbox-image">
+                            <input type="checkbox" id="id_users<?php echo $user->id; ?>" name="assigned_users[]" class="asign_employee" data-val="<?php echo $user->first_name." ".$user->last_name; ?>" value="<?php echo $user->id; ?>" <?php if(!empty($assigned_user) && in_array($user->id,$assigned_user)) echo "checked"; ?>>
+                            <label for="id_users<?php echo $user->id; ?>"><img class="employee-round-icon" src="<?php if(!empty($user->profile_pic)) echo base_url('assets/uploads/employee/'.$user->id.'/'.$user->profile_pic); else echo base_url('assets/frontend/images/user-icon-gret.svg'); ?>"><?php echo $user->first_name." ".$user->last_name; ?></label>
+                          </li>
+                          <?php } }else echo '<li class="checkbox-image" style="margin: 10px 0px 0px 10px;font-size: 14px;color: rgba(4, 4, 5, 0.42);">kein Mitarbeiter verfügbar</li>'; if(!empty($assigned_user)){ $user_assign=implode(',',$assigned_user); ?>
+						     <input type="hidden" name="old_assined_user" value="<?php echo $user_assign; ?>">
+						  <?php } ?>
+
+                        </ul>
+
+                    </div>
+                    <span class="error asign_employee_err"></span>
+                  </div>
+                 </div>
+                
+                
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+					<div class="row">
+						<div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7" >
+							<div class="row">
+							<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pr-0" >
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Standard_Price'); ?></label>
+								<div class="relative form-group-mb-50" id="">
+									<div class="input-group ">
+								<div class="input-group-prepend ">
+									<span class="input-group-text bge8e8e8">€</span>
+								</div>
+								<input type="text" id="standardprice" name="price" value="<?php echo $service->price; ?>"  class="form-control" placeholder="">
+								</div>
+								<label style="top:40px;" class="error" id="standardprice_err"></label>
+								</div>
+								
+							</div>
+
+							<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pr-0" >
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Discounted_Price'); ?></label>
+									<div class="relative form-group-mb-50" id="discount_price_validate">
+										<div class="input-group ">
+											<div class="input-group-prepend ">
+												<span class="input-group-text bge8e8e8">€</span>
+											</div>
+											<input type="text" name="discount_price" value="<?php if ($service->discount_percent != 0) echo $service->discount_price; ?>"  class="form-control discount_price" id="discount_price" placeholder="">
+										</div>
+										<label  class="error" id="discount_price_valid"></label>
+									</div>
+								</div>
+							</div>
+						  </div>
+						  <div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5" >
+							<div class="relative form-group form-group-mb-50">
+								<span class="color999 fontfamily-light font-size-12 mb-1 d-block">Preisart</span>
+								<div class="btn-group multi_sigle_select inp_select">									
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn"
+									 style="text-transform: none !important;"><?php if(!empty($service->price_start_option) && $service->price_start_option=='ab') echo $service->price_start_option; else echo 'Festpreis' ?></button>
+									<ul class="dropdown-menu mss_sl_btn_dm"
+									 x-placement="bottom-start" id=""
+									  >
+										<li class="radiobox-image">
+											<input type="radio" id="id_ad" name="price_start_option" value="ab" <?php if(!empty($service->price_start_option) && $service->price_start_option=='ab') echo 'checked'; ?>>
+											<label for="id_ad">ab</label>
+										</li>
+										<li class="radiobox-image">
+											<input type="radio" id="id_festprice" name="price_start_option" value="Festpreis" <?php if(!empty($service->price_start_option) && $service->price_start_option=='Festpreis') echo 'checked'; else if(empty($service->price_start_option)) echo 'checked'; ?>><label for="id_festprice">Festpreis</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						  </div>
+
+						<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						  <div class="form-group form-group-mb-50">
+							<div class="btn-group multi_sigle_select inp_select">
+								<span class="label label_add_top"><?php echo $this->lang->line('tex_include'); ?></span>
+								<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" id="changeTaxTxt"></button>
+								<ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll"
+								  >									
+									<li class="radiobox-image">
+										<input type="radio" id="id_textno10" name="tax" value="notax" data-text="<?php echo $this->lang->line('no_tax'); ?>" <?php if(!empty($service->id) && empty($service->tax_id)) echo "checked"; ?>>
+										<label for="id_textno10"><?php echo $this->lang->line('no_tax'); ?></label>
+									</li>
+							    
+							<?php if(!empty($taxes))
+									{ foreach($taxes as $tax)
+									  { ?>
+										<li class="radiobox-image">
+											<input type="radio" id="id_text10<?php echo $tax->id; ?>"  name="tax" data-text="<?php If($tax->defualt==1) echo "Standard: "; echo  $tax->tax_name.' ('.price_formate($tax->price).'%)'; ?>"; value="<?php echo url_encode($tax->id); ?>" <?php If(($tax->defualt==1 && empty($service->id)) || (!empty($service->id) && $service->tax_id==$tax->id)) echo 'checked'; ?>>
+											<label for="id_text10<?php echo $tax->id; ?>"><?php  If($tax->defualt==1) echo "Standard: "; echo $tax->tax_name.' ('.price_formate($tax->price).'%)'; ?></label>
+										</li>
+							
+							 <?php  }  } ?>	
+									
+								</ul>
+							</div>
+							<label style="top:40px;" class="error" ></label>
+						</div>
+						</div>
+					</div>
+				
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6">
+					<div class="row procsstimediv <?php if(!empty($service->id) && $service->type==1) echo 'display-n'; ?>" id="withoutProcessTime0">
+						<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+						<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Standard_Duration'); ?> </label>
+							
+							<div class="form-group mb-0">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idopt01" style="">1h</button>
+									<ul
+									 class="dropdown-menu mss_sl_btn_dm noclose scroll-effect 
+									 height240" style="max-height: 320px  !important;overflow-x: auto;">
+										<?php 
+																				
+										foreach($optArr as $optk=>$optv){ ?>
+										 
+										 <li class="radiobox-image">
+										   <input type="radio" id="idopt01<?php echo $optk; ?>" class="timeDropDown" data-c="idopt01" data-text="<?php echo $optv; ?>" name="duration" value="<?php echo $optk; ?>" <?php if(!empty($service->duration) && $service->duration==$optk || empty($service->duration) && 60==$optk) echo 'checked'; ?>><label for="idopt01<?php echo $optk; ?>"><?php echo $optv; ?></label>
+										 </li>   
+										<?php } ?>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
+							<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo ucfirst(strtolower($this->lang->line('Buffer_Time'))); ?></label>
+							<div class="form-group mb-0">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptb02" style=""><?php echo 'kein Puffer'; ?></button>
+									<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect
+									 height240" style="max-height: 320px  !important;overflow-x: auto;">
+										<li class="radiobox-image">
+										<input type="radio" id="idoptb020" class="timeDropDown" data-c="idoptb02" data-text="no buffer" name="buffer_time" value="0" <?php if(!empty($service->buffer_time) && $service->buffer_time==0) echo 'checked'; ?>><label for="idoptb020"><?php echo $this->lang->line('no_buffer');?></label>
+										 </li>
+										<?php foreach($optArr as $optk=>$optv){ ?>
+										<li class="radiobox-image">
+											 <li class="radiobox-image">
+										   <input type="radio" id="idoptb02<?php echo $optk; ?>" class="timeDropDown" data-c="idoptb02" data-text="<?php echo $optv; ?>" name="buffer_time" value="<?php echo $optk; ?>" <?php if(!empty($service->buffer_time) && $service->buffer_time==$optk) echo 'checked'; ?>><label for="idoptb02<?php echo $optk; ?>"><?php echo $optv; ?></label>
+										 </li>   
+										<?php } ?>
+
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row procsstimediv <?php if(!empty($service->id) && $service->type ==1) echo ''; else echo 'display-n'; ?>" id="withProcessTime0">
+						<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pr-2" >
+						<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('working_time'); ?></label>
+							<div class="form-group mb-0">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptset03" style="">1h</button>
+									<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240">
+										
+									 <?php foreach($optArr as $optk=>$optv)
+									        { ?>
+										 
+											 <li class="radiobox-image">
+											   <input type="radio" id="idoptset03<?php echo $optk; ?>" class="timeDropDown" data-c="idoptset03" data-text="<?php echo $optv; ?>" name="setuptime" value="<?php echo $optk; ?>" <?php if(!empty($service->setuptime) && $service->setuptime==$optk || empty($service->setuptime) && 60==$optk) echo 'checked'; ?>><label for="idoptset03<?php echo $optk; ?>"><?php echo $optv; ?></label>
+											 </li>   
+									 <?php   } ?>            
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pl-2 pr-2" >
+							<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('exposure'); ?></label>
+							<div class="form-group mb-0">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptexp04" style="">15 min</button>
+									<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240" >
+									<?php foreach($optArr as $optk=>$optv)
+									        { ?>
+										 
+											 <li class="radiobox-image">
+											   <input type="radio" id="idoptexp04<?php echo $optk; ?>" class="timeDropDown" data-c="idoptexp04" data-text="<?php echo $optv; ?>" name="processtime" value="<?php echo $optk; ?>" <?php if(!empty($service->processtime) && $service->processtime==$optk || empty($service->setuptime) && 15==$optk) echo 'checked'; ?>><label for="idoptexp04<?php echo $optk; ?>"><?php echo $optv; ?></label>
+											 </li>   
+									 <?php   } ?>                   
+									</ul>
+								</div>
+								<label class="error" id="processtime0"></label>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pl-2" >
+							<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Complete'); ?></label>
+							<div class="form-group mb-0">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptfin05" style="">15 min</button>
+									<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240">
+									<?php foreach($optArr as $optk=>$optv)
+									        { ?>
+										 
+											 <li class="radiobox-image">
+											   <input type="radio" id="idoptfin05<?php echo $optk; ?>" class="timeDropDown" data-c="idoptfin05" data-text="<?php echo $optv; ?>" name="finishtime" value="<?php echo $optk; ?>" <?php if(!empty($service->finishtime) && $service->finishtime==$optk || empty($service->setuptime) && 15==$optk) echo 'checked'; ?>><label for="idoptfin05<?php echo $optk; ?>"><?php echo $optv; ?></label>
+											 </li>   
+									 <?php   } ?>             
+									</ul>
+								</div>
+								<label class="error" id="finishtime0"></label>
+							</div>
+						</div>
+						
+					<span class="fontsize-12 lineheight12 color-333 display-ib pl-3 mt-1 pr-3" style="margin-top:0.75rem !important;"><?php echo $this->lang->line('the_exposure'); ?> </span>
+					
+					</div>
+					<div class="checkbox mt-1 mb-2 display-ib" style="margin-top:0.75rem !important;">
+						<label class="fontsize-12 fontfamily-regular color333"><input type="checkbox" name="proccess_time" value="yes" class="addProcceesTime" id="addProcceesTime" data-count="0" <?php if(!empty($service->id) && $service->type ==1) echo 'checked'; ?>>
+						  <span class="cr"><i class="cr-icon fa fa-check"></i></span>
+						  <?php echo $this->lang->line('add_exposure'); ?>
+						</label>
+					</div> 
+				</div>
+				  
+                   
+
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="form-group mobile1-mb-40">
+                     <p class="font-size-18 color333 fontfamily-medium"><?php echo $this->lang->line('Service_Detail'); ?></p>
+                        <!-- <input type="text" placeholder="&nbsp;" value="" name="detail" class="form-control"> -->
+                        <textarea placeholder="&nbsp;" name="detail" id="about_salon" class="form-control h-100"><?php if(!empty($service->service_detail)) echo $service->service_detail; ?></textarea>
+					 </div>
+                  </div>
+
+                  <!-- add online booking -->
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                  	<div class="vertical-bottom mb-20">
+	                   <label class="switch mr-2" for="vcheckbox15" style="top:8px">
+		                    <input type="checkbox" id="vcheckbox15" name="check_online_option" <?php if(!empty($service->online) && $service->online==1 || empty($service)) echo 'checked'; else echo ''; ?>>
+		                    <div class="slider round"></div>
+		                 </label>
+		                 <p class="color333 fontfamily-medium font-size-14 display-ib"><?php echo $this->lang->line('available_online'); ?></p>
+		             </div>
+                  </div>
+
+                </div>
+                <div class="relative" id="add_more_section">
+
+			    <?php if(!empty($moreServices)){
+					 foreach($moreServices as $more){ ?>
+
+							<div class="spacial-discount addedsction" id="delete<?php echo $more->id; ?>">
+						  <div class="border-w3 border-radius4 pt-30 pb-20 pl-14 pr-14 mb-40 relative mt-10">
+							
+							<?php if(!empty($_GET['service']) && $_GET['service']=="duplicate"){ ?>
+								
+								<a class="colororange fontfamily-medium font-size-14 a_hover_orange absolute removebtntoggle removenew" style="color:#FF9944 !important;cursor:pointer;"><?php echo $this->lang->line("Delete"); ?></a>
+								
+							  <?php	  }
+							  else{  ?>
+							       <a class="colororange fontfamily-medium font-size-14 a_hover_orange absolute removebtntoggle removeExistSubservice" data-id="<?php echo url_encode($more->id); ?>" data-delid="<?php echo $more->id; ?>" style="color:#FF9944 !important;cursor:pointer;" ><?php echo $this->lang->line("Delete"); ?></a>
+							<?php } ?>
+							
+							<div class="relative pl-15 pr-15">
+							  <div class="row">
+								<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+							<div class="form-group mobile1-mb-40">
+								 <label class="inp">
+								 <input type="hidden" name="subServiceId[]" value="<?php echo $more->id; ?>">
+								   <input type="text" placeholder="&nbsp;" name="subService[]" value="<?php if(!empty($more->name)) echo $more->name; ?>" class="form-control" required>
+								   <span class="label"><?php echo $this->lang->line('Service_servicename'); ?> </span>
+								 </label>
+								  </div>
+								</div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+							<div class="row">
+						
+						  <div class="col-12 col-sm-7 col-md-7 col-lg-7 col-xl-7" >
+							  <div class="row">
+							  <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pr-0">
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Standard_Price'); ?></label>
+								 <div class="relative form-group-mb-50">
+								 <div class="input-group ">
+								  <div class="input-group-prepend ">
+									<span class="input-group-text bge8e8e8">€</span>
+								  </div>
+								  <input type="text" class="form-control validation checkPrice" data-text="subprice<?php echo $more->id; ?>" name="subPrice[]" value="<?php echo $more->price; ?>" placeholder="" style="padding: 0px 5px;text-align: center;">
+								</div>
+								 <label  class="error" id="subprice<?php echo $more->id; ?>"></label>
+								</div>
+							  </div>
+							   <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 pr-0">
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Discounted_Price'); ?></label>
+								 <div class="relative form-group-mb-50">
+								 <div class="input-group ">
+								  <div class="input-group-prepend ">
+									<span class="input-group-text bge8e8e8">€</span>
+								  </div>
+								  <input type="text" name="subDiscount_price[]" class="form-control discount_price subprice<?php echo $more->id; ?>" value="<?php if ($more->discount_percent != 0) echo $more->discount_price; ?>" placeholder="" style="padding: 0px 5px;text-align: center;">
+								</div>
+								 <label  class="error" id="dissubprice<?php echo $more->id; ?>"></label>
+								</div>
+							  </div>
+							   </div>
+							 </div>
+							<div class="col-12 col-sm-5 col-md-5 col-lg-5 col-xl-5" >
+								<div class="relative form-group form-group-mb-50">
+									<span class="color999 fontfamily-light font-size-12 mb-1 d-block">Preisart</span>
+									<div class="btn-group multi_sigle_select inp_select">									
+										<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn" style="text-transform: initial !important;"><?php if(!empty($more->price_start_option) && $more->price_start_option=='ab') echo $more->price_start_option; else echo 'Festpreis' ?></button>
+										<ul class="dropdown-menu mss_sl_btn_dm" x-placement="bottom-start" id="">
+											<li class="radiobox-image">
+												<input type="radio" id="id_ad<?php echo $more->id; ?>" name="subprice_start_option1[<?php echo $more->id; ?>]" value="ab" <?php if(!empty($more->price_start_option) && $more->price_start_option=='ab') echo 'checked'; ?>>
+												<label for="id_ad<?php echo $more->id; ?>">ab</label>
+											</li>
+											<li class="radiobox-image">
+												<input type="radio" id="id_festprice<?php echo $more->id; ?>" name="subprice_start_option1[<?php echo $more->id; ?>]" value="Festpreis" <?php if(!empty($more->price_start_option) && $more->price_start_option=='Festpreis') echo 'checked'; else if(empty($more->price_start_option)) echo 'checked'; ?>><label for="id_festprice<?php echo $more->id; ?>">Festpreis</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							  </div>
+						    </div>						
+						  </div>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">	
+						<div class="row procsstimediv <?php if($more->type==1) echo 'display-n'; ?>" id="withoutProcessTimeEx<?php echo $more->id; ?>">							  
+							<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+							  <label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Standard_Duration'); ?></label>
+							  <div class="form-group">
+								<div class="btn-group multi_sigle_select">
+									<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptnewext04<?php echo $more->id; ?>" style=""></button>
+									<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240" style="max-height: 320px  !important;overflow-x: auto;">
+									<?php foreach($optArr as $optk=>$optv)
+									        { ?>
+										 
+											 <li class="radiobox-image">
+											   <input type="radio" id="idoptext05<?php echo $optk.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewext04<?php echo $more->id; ?>" data-text="<?php echo $optv; ?>" name="getChecked_idoptnewext04<?php echo $more->id; ?>" value="<?php echo $optk; ?>" <?php if(!empty($more->duration) && $more->duration==$optk || empty($more->duration) && 15==$optk) echo 'checked'; ?>>
+											   <label for="idoptext05<?php echo $optk.$more->id; ?>"><?php echo $optv; ?></label>
+											 </li>   
+									 <?php   } ?>             
+									</ul>
+								</div>
+								 <label class="error" id="durationext<?php echo $more->id; ?>"></label>
+								<input type="hidden" id="idoptnewext04<?php echo $more->id; ?>" name="subDuration[]" value="<?php if(!empty($more->duration)) echo $more->duration ?>"  data-text="durationext<?php echo $more->id; ?>">
+							</div>
+						</div>
+							  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Buffer_Time'); ?></label>
+								  <div class="form-group">
+									<div class="btn-group multi_sigle_select">
+										<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptnewextbuf04<?php echo $more->id; ?>" style=""><?php echo $this->lang->line('no_buffer'); ?></button>
+										<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240" style="max-height: 320px  !important;overflow-x: auto;">
+										<li class="radiobox-image">
+										<input type="radio" id="idoptextbuf05<?php echo '0'.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewextbuf04<?php echo $more->id; ?>" data-text="no buffer" name="getChecked_idoptnewextbuf04<?php echo $more->id; ?>" value="0" <?php if(!empty($more->buffer_time) && $more->buffer_time==0) echo 'checked'; ?>><label for="idoptextbuf05<?php echo '0'.$more->id; ?>"><?php echo $this->lang->line("no_buffer"); ?></label>
+										 </li>
+										<?php foreach($optArr as $optk=>$optv)
+												{ ?>
+											 
+												 <li class="radiobox-image">
+												   <input type="radio" id="idoptextbuf05<?php echo $optk.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewextbuf04<?php echo $more->id; ?>" data-text="<?php echo $optv; ?>" name="getChecked_idoptnewextbuf04<?php echo $more->id; ?>" value="<?php echo $optk; ?>" <?php if(!empty($more->buffer_time) && $more->buffer_time==$optk) echo 'checked'; ?>>
+												   <label for="idoptextbuf05<?php echo $optk.$more->id; ?>"><?php echo $optv; ?></label>
+												 </li>   
+										 <?php   } ?>             
+										</ul>
+									</div>
+									 <label class="error" id="subtimebuf<?php echo $more->id; ?>"></label>
+									<input type="hidden" id="idoptnewextbuf04<?php echo $more->id; ?>" name="subBuffer_time[]" value="<?php if(!empty($more->buffer_time)) echo $more->buffer_time; ?>"  data-text="subtimebuf<?php echo $more->id; ?>">
+								</div>
+							</div>
+						</div>
+						<div class="row procsstimediv <?php if($more->type==1) echo ''; else echo 'display-n'; ?>" id="withProcessTimeEx<?php echo $more->id; ?>">
+								<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pr-1" >
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('working_time'); ?></label>
+								  <div class="form-group">
+									<div class="btn-group multi_sigle_select">
+										<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptnewextsetup04<?php echo $more->id; ?>" style=""></button>
+										<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240">
+										<?php foreach($optArr as $optk=>$optv)
+												{ ?>
+											 
+												 <li class="radiobox-image">
+												   <input type="radio" id="idoptextsetup05<?php echo $optk.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewextsetup04<?php echo $more->id; ?>" data-text="<?php echo $optv; ?>" name="getChecked_idoptnewextsetup04<?php echo $more->id; ?>" value="<?php echo $optk; ?>" <?php if(!empty($more->setuptime) && $more->setuptime==$optk || empty($more->setuptime) && 15==$optk) echo 'checked'; ?>>
+												   <label for="idoptextsetup05<?php echo $optk.$more->id; ?>"><?php echo $optv; ?></label>
+												 </li>   
+										 <?php   } ?>             
+										</ul>
+									</div>
+									 <label class="error" id="subsetuptimeEx<?php echo $more->id; ?>"></label>
+									<input type="hidden" id="idoptnewextsetup04<?php echo $more->id; ?>" name="subsetuptime[]" value="<?php if(!empty($more->setuptime)) echo $more->setuptime; ?>"  data-text="subsetuptimeEx<?php echo $more->id; ?>">
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pl-1 pr-1" >
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('exposure'); ?></label>
+								  <div class="form-group">
+									<div class="btn-group multi_sigle_select">
+										<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptnewextpro04<?php echo $more->id; ?>" style=""></button>
+										<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240" style="max-height: 320px !important;overflow-x: auto;">
+										<?php foreach($optArr as $optk=>$optv)
+												{ ?>
+											 
+												 <li class="radiobox-image">
+												   <input type="radio" id="idoptextpro05<?php echo $optk.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewextpro04<?php echo $more->id; ?>" data-text="<?php echo $optv; ?>" name="getChecked_idoptnewextpro04<?php echo $more->id; ?>" value="<?php echo $optk; ?>" <?php if(!empty($more->processtime) && $more->processtime==$optk || empty($more->processtime) && 15==$optk) echo 'checked'; ?>>
+												   <label for="idoptextpro05<?php echo $optk.$more->id; ?>"><?php echo $optv; ?></label>
+												 </li>   
+										 <?php   } ?>             
+										</ul>
+									</div>
+									 <label class="error" id="subprocesstimeEx<?php echo $more->id; ?>"></label>
+									<input type="hidden" id="idoptnewextpro04<?php echo $more->id; ?>" name="subprocesstime[]" value="<?php if(!empty($more->processtime)) echo $more->processtime; ?>"  data-text="subprocesstimeEx<?php echo $more->id; ?>">
+								</div>
+							</div>
+							<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 pl-1">
+								<label class="color999 fontfamily-light font-size-12 mb-1"><?php echo $this->lang->line('Complete'); ?></label>
+								 <div class="form-group">
+									<div class="btn-group multi_sigle_select">
+										<button data-toggle="dropdown" class="btn btn-default dropdown-toggle mss_sl_btn idoptnewextfin04<?php echo $more->id; ?>" style=""></button>
+										<ul class="dropdown-menu mss_sl_btn_dm noclose scroll-effect height240" style="max-height: 320px !important;overflow-x: auto;">
+										<?php foreach($optArr as $optk=>$optv)
+												{ ?>
+											 
+												 <li class="radiobox-image">
+												   <input type="radio" id="idoptextfin05<?php echo $optk.$more->id; ?>" class="timeDropDown addMoretimeDropDown" data-c="idoptnewextfin04<?php echo $more->id; ?>" data-text="<?php echo $optv; ?>" name="getChecked_idoptnewextfin04<?php echo $more->id; ?>" value="<?php echo $optk; ?>" <?php if(!empty($more->finishtime) && $more->finishtime==$optk || empty($more->finishtime) && 15==$optk) echo 'checked'; ?>>
+												   <label for="idoptextfin05<?php echo $optk.$more->id; ?>"><?php echo $optv; ?></label>
+												 </li>   
+										 <?php   } ?>             
+										</ul>
+									</div>
+									 <label class="error" id="subfinishtimeEx<?php echo $more->id; ?>"></label>
+									<input type="hidden" id="idoptnewextfin04<?php echo $more->id; ?>" name="subfinishtime[]" value="<?php if(!empty($more->finishtime)) echo $more->finishtime; ?>"  data-text="subfinishtimeEx<?php echo $more->id; ?>">
+								</div>
+							</div>
+							<span class="fontsize-12 lineheight12 color-333 display-ib pl-3 mt-1 pr-3" style="margin-top:0.75rem !important;"><?php echo $this->lang->line('the_exposure'); ?></span>
+						</div>
+								   <div class="checkbox mt-1 mb-2" style="margin-top:0.75rem;">
+									 <label class="fontsize-12 fontfamily-regular color333">
+									  <input type="checkbox" data-id="subproccess_timeEx<?php echo $more->id; ?>" value="yes" class="addProcceesTime" data-count="Ex<?php echo $more->id; ?>" <?php if($more->type==1) echo 'checked'; ?>>
+									 <span class="cr"><i class="cr-icon fa fa-check"></i></span><?php echo $this->lang->line('add_exposure'); ?></label>
+								   </div>
+								   <input type="hidden" name="subproccess_time[]" value="<?php if($more->type==1) echo 'yes'; ?>" id="subproccess_timeEx<?php echo $more->id; ?>">
+								
+								</div>
+					
+							  </div>
+							    	   <!-- add online booking -->
+					        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+								<div class="vertical-bottom mb-20">
+								   <label class="switch mr-2" for="vcheckbox152exsub<?php echo $more->id; ?>" style="top:8px">
+										<input type="checkbox" id="vcheckbox152exsub<?php echo $more->id; ?>" class="onlineOption" data-id="subexonline<?php echo $more->id; ?>" <?php if($more->online==1) echo "checked"; ?>>
+										<div class="slider round"></div>
+									 </label>
+									 <input type="hidden" name="subonline[]" value="<?php echo $more->online; ?>" id="subexonline<?php echo $more->id; ?>">
+									 <p class="color333 fontfamily-medium font-size-14 display-ib"><?php echo $this->lang->line('available_online'); ?></p>
+								 </div>
+							  </div>
+							</div>
+						  </div>
+						</div>
+					<?php } } ?>
+        </div>
+        <div class="text-center border-w3 border-radius4 pt-2 pb-2">
+          <a class="cursor_pointer relative color333 a_hover_333 fontfamily-medium font-size-16 addmoreservice" data-count="1" style="cursor:pointer;color:#333 !important">
+            <i class="fas fa-plus-circle"></i> <?php echo $this->lang->line('More_service'); ?> </a>
+        </div>
+        <?php if(!empty($offer_check)){
+                        $cls_css='';
+                        $cls_div='select-day-time collapse show';
+                      }
+                      else{
+                        $cls_css='collapsed';
+                        $cls_div='collapse select-day-time';
+                      }
+                 ?>
+              <div class="relative mb-30 mt-30">
+              <div class="relative bgwhite border-radius4 toggle-parent-date-time">
+
+                <a href="#"  class="colorcyan fontfamily-medium font-size-16 a_hover_cyan w-100 bgwhite display-b pl-3 pr-3 pt-10 pb-10 border-radius4 select-day-time-click border-w4 <?php echo $cls_css; ?>" data-toggle="collapse" data-target=".select-day-time"><?php echo $this->lang->line('select_day_time'); ?> <span class="ml-auto toggle-cyan-round"><img src="<?php echo base_url('assets/frontend/'); ?>images/down-arrow-white.svg" class="down-arrow-white"></span></a>
+
+                <div class="around-25 collapse select-day-time <?php echo $cls_div; ?>" id=" ">
+                    <div class="row mt-0">
+                         <?php //$days_array = array('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday', 'Sunday');
+                    $ii=0;
+                    if(!empty($days_array)){
+						
+						
+                    foreach($days_array as $day){ ?>
+            
+								<div class="d-flex w-100">
+									<div class="checkbox-btn display-ib">
+									  <label class="/font-size-14 fontfamily-medium">
+										<input type="checkbox" <?php if(isset($offer[$ii]->starttime) && $offer[$ii]->starttime !=''){ echo 'checked="checked"';} ?> name="days[]" class="checkbox" value="<?php echo strtolower($day->days); ?>">
+										  <span class="squer-chack">
+											<span class="squer-chacked"><?php echo strtoupper(substr($this->lang->line(ucfirst($day->days)),0,1)); ?></span>
+										  </span>
+									  </label>
+									  <span id="chk_<?php echo strtolower($day->days); ?>" class="error"></span>
+									  <p class="color333 fontfamily-light font-size-12 display-ib ml-10 mb-0 overflow_elips" style=""><?php echo $this->lang->line('text_between_'.strtolower($day->days)); ?></p>
+									</div>
+									<div class="ml-auto">
+									<div class="display-ib mr-20 ml-30 width160">
+										<div class="form-group form-group-mb-50">
+								<div class="btn-group multi_sigle_select inp_select v_inp_new">
+											<span class="label <?php if(!empty($offer[$ii]->endtime)) echo 'label_add_top'; ?>"><?php echo $this->lang->line('Start_Time'); ?></span>
+											<button data-toggle="dropdown" class="height56v btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="false"><?php if(!empty($offer[$ii]->starttime)) echo date('H:i',strtotime($offer[$ii]->starttime));  ?></button>
+											<ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll" style="max-height: 320px !important;overflow-x: auto;">
+								<?php if(!empty($day->starttime) && !empty($day->endtime))
+								{
+								$tStart = strtotime($day->starttime);
+								$tEnd = strtotime($day->endtime);
+								$tNow = $tStart;
+								while($tNow <= $tEnd){ ?>
+								<li class="radiobox-image">
+								<input type="radio" id="id_time<?php echo strtolower($day->days); echo $tNow; ?>" name="<?php echo strtolower($day->days); ?>_start" class="start_<?php echo strtolower($day->days); ?>" data-val="" value="<?php echo date("H:i:s",$tNow) ?>" <?php if(!empty($offer[$ii]->starttime) && $offer[$ii]->starttime==date("H:i:s",$tNow)) echo "checked"; ?>>
+								<label for="id_time<?php echo strtolower($day->days); echo $tNow; ?>">
+								<?php echo date("H:i",$tNow) ?>                   
+								</label>
+								</li> 
+								<?php $tNow = strtotime('+30 minutes',$tNow); } } ?>    
+												  
+											</ul>
+										 </div>
+								<span id="Serr_<?php echo strtolower($day->days); ?>" class="error"></span>
+
+                                
+                                </div>
+                            </div>
+                            <div class="display-ib width160">
+                                <div class="form-group form-group-mb-50">
+                                  <div class="btn-group multi_sigle_select inp_select v_inp_new">
+                                    <span class="label <?php if(!empty($offer[$ii]->endtime)) echo 'label_add_top'; ?>"><?php echo $this->lang->line('End_Time'); ?></span>
+                                    <button data-toggle="dropdown" class="height56v btn btn-default dropdown-toggle mss_sl_btn" aria-expanded="false"><?php if(!empty($offer[$ii]->endtime)) echo date('H:i',strtotime($offer[$ii]->endtime)); ?></button>                                
+                                    
+                                    <ul class="dropdown-menu mss_sl_btn_dm scroll200 custom_scroll" style="max-height: 320px !important;overflow-x: auto;">
+                                     <?php if(!empty($day->starttime) && !empty($day->endtime))
+											   {
+											  $tStart = strtotime($day->starttime);
+											  $tEnd = strtotime($day->endtime);
+											  $tNow = $tStart;
+											while($tNow <= $tEnd){ ?>
+												<li class="radiobox-image">
+												<input type="radio" id="endid_time<?php echo strtolower($day->days); echo $tNow; ?>" name="<?php echo strtolower($day->days); ?>_end" class="end_<?php echo strtolower($day->days); ?>" data-val="" value="<?php echo date("H:i:s",$tNow) ?>" <?php if(!empty($offer[$ii]->endtime) && $offer[$ii]->endtime==date("H:i:s",$tNow)) echo "checked"; ?>>
+												<label for="endid_time<?php echo strtolower($day->days); echo $tNow; ?>">
+												<?php echo date("H:i",$tNow) ?>                   
+												</label>
+												</li> 
+											<?php $tNow = strtotime('+30 minutes',$tNow); } } ?>                         
+											</ul>
+											</div>
+											<span id="Eerr_<?php echo strtolower($day->days); ?>" class="error"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+                            <?php $ii++; } } ?>
+                        </div>
+                   </div>
+                </div>
+              </div>
+              <div class="text-center ">
+               	<a href="<?php if(!empty($_SERVER['HTTP_REFERER'])) echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-large widthfit2" style="margin-right: 30px;"><?php echo $this->lang->line('abort'); ?></button></a>
+              	<button type="button" onclick="submitAddService();" class="btn btn-large widthfit2" id="save_buuton"><?php echo $this->lang->line('Save_btn'); ?></button>
+              </div>
+			</div>
+		  </div>  
+		</form>
+
+
+
+<script>
+
+	
+$.validator.addMethod(
+  "pattern",
+  function(value, element, regexp) {
+    var re = new RegExp(/^[0-9,]+$/);
+    return this.optional(element) || re.test(value);
+  },
+  "<i class='fas fa-exclamation-circle mrm-5'></i>Enter a valid number"
+);
+
+	
+$("#add_category").validate({
+	errorElement: 'label',
+    errorClass: 'error',
+  rules: {
+   price:{pattern:true,
+	      minlength: 1,
+          maxlength: 20 },
+  subDuration:{ required: true,
+	            number:true
+	        }      
+},
+ messages: {
+   price:{ 
+	       minlength:"<i class='fas fa-exclamation-circle mrm-5'></i>Enter a valid number" 
+	      }
+ }, 
+ errorPlacement: function (error, element) {
+            var name = $(element).attr("name");
+            error.appendTo($("#" + name + "_validate"));
+        }
+
+});	
+	
+</script>	
