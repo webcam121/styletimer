@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/frontend/css/gijgo.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/frontend/css/bootstrap-clockpicker.min.css');?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/frontend/css/jquery.smartbanner.css');?>" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css" />
     <!-- 
     <link rel="stylesheet" href="<?php //echo base_url('assets/frontend/css/bootstrap-datetimepicker.min.css');?>"> -->
     <link rel="stylesheet" href="<?php echo base_url('assets/frontend/custome/userFormValidation.css'); ?>">

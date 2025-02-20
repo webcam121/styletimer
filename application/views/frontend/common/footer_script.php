@@ -793,6 +793,8 @@ $this->load->view('frontend/common/common_modal');
 <script src="<?php echo base_url('assets/frontend/js/additional-methods.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/frontend/js/script.js'); ?>"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/dataTables.bootstrap4.min.js"></script>
 <script src="<?php echo base_url('assets/frontend/custome/userFormValidation.js'); ?>"></script>
 <script src='<?php echo base_url('assets/frontend/js/sweetalert2.js'); ?>'></script>
 
