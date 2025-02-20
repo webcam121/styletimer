@@ -334,7 +334,7 @@ if (isset($_COOKIE['sch_date']) && $_COOKIE['sch_date'] != '') {
                                         <div class="calender-date-custume relative around-15" id="datadate">
 
                                             <p class="color242424 fontfamily-light font-size-14 mb-25">
-                                                <img src="https://dev.styletimer.de/assets/frontend/images/date_pecker_icon.svg"
+                                                <img src="<?php echo base_url('assets/frontend/images/date_pecker_icon.svg')?>"
                                                     class="width16 mr-10">
                                                 Datum
                                             </p>
@@ -393,7 +393,7 @@ if (isset($_COOKIE['sch_time']) && $_COOKIE['sch_time'] != '') {
                                         <div class="time-custume relative around-15" id="timedata">
                                             <p class="color242424 fontfamily-light font-size-14 mb-25">
                                                 <img class="width16 mr-10"
-                                                    src="https://dev.styletimer.de/assets/frontend/images/time_pecker_icon.svg">
+                                                    src="<?php echo base_url('assets/frontend/images/time_pecker_icon.svg')?>">
                                                 Uhrzeit
                                             </p>
                                             <div class="row mb-20">

@@ -346,18 +346,18 @@ if(!empty($usersdetail))
                              1233<br>65582 Berlin                          </span>
                           <span class="colorcyan display-b">Entfernung: 6172.8 Km</span>
                           <span href="#" data-uid="2015" class="colorcyan showSalonOnmap fontfamily-light font-size-14 a_hover_cyan mb-10 vertical-middle display-ib" style="">
-                              <img src="https://dev.styletimer.de/assets/frontend/images/blue_localtion.svg" class="width24v mr-10 vertical-middle">
+                              <img src="<?php echo base_url('assets/frontend/images/blue_localtion.svg')?>" class="width24v mr-10 vertical-middle">
                               auf der Karte zeigen                          </span>
                         
                           <div class="no_favourite mb-10" id="no_fav_2015" style="display:block;width:50%;">
                              <span data-id="2015" class="display-b favourite_click" id="add">
-                                 <img src="https://dev.styletimer.de/assets/frontend/images/blanck-hard.svg" class="width24v mr-10 vertical-middle">
+                                 <img src="<?php echo base_url('assets/frontend/images/blanck-hard.svg')?>" class="width24v mr-10 vertical-middle">
                                <span class="colorpink fontfamily-light font-size-14">Als Favorit hinzufügen</span>
                              </span>
                           </div>
                           <div class="your_favourite mb-10" id="your_fav_2015" style="display:none;width:50%;">
                              <span data-id="2015" class="display-b favourite_click" id="remove">
-                                 <img src="https://dev.styletimer.de/assets/frontend/images/fill-hard.svg" class="width24v mr-10 vertical-middle">
+                                 <img src="<?php echo base_url('assets/frontend/images/fill-hard.svg')?>" class="width24v mr-10 vertical-middle">
                                 <span class="colorpink fontfamily-light font-size-14">Als Favorit markiert</span>
                             </span>
                           </div>

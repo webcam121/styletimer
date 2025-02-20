@@ -182,7 +182,7 @@
                     <picture class="">
                       <!--<source srcset="<?php //echo base_url('assets/frontend/images/date_pecker_icon.webp') ?>" type="image/webp" class="">-->
                      <!-- <source srcset="<?php //echo base_url('assets/frontend/images/date_pecker_icon.png') ?>" type="image/png" class="">-->
-                      <img src="https://dev.styletimer.de/assets/frontend/images/date_pecker_icon.svg" class="width16 mr-10">
+                      <img src="<?php echo base_url('assets/frontend/images/date_pecker_icon.svg" class="width16 mr-10">
                     </picture>
                       <span class="font-size-12 fontfamily-medium"><?php echo $mssg; ?></span>
                     </div>

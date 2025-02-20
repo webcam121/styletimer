@@ -857,7 +857,7 @@ function getupcomingserviceList(){
 	 	//var obj = jQuery.parseJSON( data );
 	 	var tabData = JSON.parse(data);
 		 if(tabData==''){
-			$('#chartContainerserv').html('<div style="text-align:center;"><img style="margin-top:0" src="https://dev.styletimer.de/assets/frontend/images/no_listing.png"></div><div style="margin-top:5px;text-align:center;">Es sind noch keine Daten vorhanden</div>');
+			$('#chartContainerserv').html('<div style="text-align:center;"><img style="margin-top:0" src="'.base_url('assets/frontend/images/no_listing.png').'"></div><div style="margin-top:5px;text-align:center;">Es sind noch keine Daten vorhanden</div>');
 			$("#chartContainerserv").css("height","150");
 			return;
 		};
@@ -925,7 +925,7 @@ function getupcomingstaffList(){
 	 	//var obj = jQuery.parseJSON( data );
 	 	var tabData = JSON.parse(data);
 		 if(tabData==''){
-			$('#chartContainerstaff').html('<div style="text-align:center;"><img style="margin-top:0" src="https://dev.styletimer.de/assets/frontend/images/no_listing.png"></div><div style="margin-top:5px;text-align:center;">Es sind noch keine Daten vorhanden</div>');
+			$('#chartContainerstaff').html('<div style="text-align:center;"><img style="margin-top:0" src="'.base_url('assets/frontend/images/no_listing.png').'"></div><div style="margin-top:5px;text-align:center;">Es sind noch keine Daten vorhanden</div>');
 			$("#chartContainerstaff").css("height","150");
 			return;
 		};
@@ -1035,7 +1035,7 @@ if($('#pie-chart-payment-type')[0]){
             
         });
     }else{
-		$('#pie-chart-payment-type').html('<div ><img style="margin-top:0" src="https://dev.styletimer.de/assets/frontend/images/no_listing.png"></div><div style="margin-top:5px;">Es sind noch keine Daten vorhanden</div>');
+		$('#pie-chart-payment-type').html('<div ><img style="margin-top:0" src="'.base_url('assets/frontend/images/no_listing.png').'"></div><div style="margin-top:5px;">Es sind noch keine Daten vorhanden</div>');
 			$("#pie-chart-payment-type").css("height","150");
 			return;
 	}	

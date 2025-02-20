@@ -320,7 +320,7 @@ $loc_sch = !empty($_GET['address']) ? $_GET['address'] : '';
                         <div class="calender-date-custume relative around-15" id="datadate"> 
                        
 						  <p class="color242424 fontfamily-light font-size-14 mb-25">
-                                        <img src="https://dev.styletimer.de/assets/frontend/images/date_pecker_icon.svg" class="width16 mr-10">
+                                        <img src="<?php echo base_url('assets/frontend/images/date_pecker_icon.svg')?>" class="width16 mr-10">
                                   Datum</p>
                           <div class="row mb-20 relative">
                             <div class="col-6">
@@ -377,7 +377,7 @@ $loc_sch = !empty($_GET['address']) ? $_GET['address'] : '';
                         <div class="time-custume relative around-15" id="timedata"> 
                           <p class="color242424 fontfamily-light font-size-14 mb-25">
                                         <img class="width16 mr-10"
-                                         src="https://dev.styletimer.de/assets/frontend/images/time_pecker_icon.svg">
+                                         src="<?php echo base_url('assets/frontend/images/time_pecker_icon.svg')?>">
                                   Uhrzeit</p>
                           <div class="row mb-20" >
                             <div class="col-6">
@@ -716,18 +716,18 @@ echo $cat->category_name;
                              1233<br>65582 Berlin                          </span>
                           <span class="colorcyan display-b">Entfernung: 6172.8 Km</span>
                           <span href="#" data-uid="2015" class="colorcyan showSalonOnmap fontfamily-light font-size-14 a_hover_cyan mb-10 vertical-middle display-ib" style="">
-                              <img src="https://dev.styletimer.de/assets/frontend/images/blue_localtion.svg" class="width24v mr-10 vertical-middle">
+                              <img src="<?php echo base_url('assets/frontend/images/blue_localtion.svg')?>" class="width24v mr-10 vertical-middle">
                               auf der Karte zeigen                          </span>
                         
                           <div class="no_favourite" id="no_fav_2015" style="display:block;width:50%;">
                              <span data-id="2015" class="display-b favourite_click" id="add">
-                                 <img src="https://dev.styletimer.de/assets/frontend/images/blanck-hard.svg" class="width24v mr-10 vertical-middle">
+                                 <img src="<?php echo base_url('assets/frontend/images/blanck-hard.svg')?>" class="width24v mr-10 vertical-middle">
                                <span class="colorpink fontfamily-light font-size-14">Als Favorit hinzufügen</span>
                              </span>
                           </div>
                           <div class="your_favourite" id="your_fav_2015" style="display:none;width:36%;">
                              <span data-id="2015" class="display-b favourite_click" id="remove">
-                                 <img src="https://dev.styletimer.de/assets/frontend/images/fill-hard.svg" class="width24v mr-10 vertical-middle">
+                                 <img src="<?php echo base_url('assets/frontend/images/fill-hard.svg')?>" class="width24v mr-10 vertical-middle">
                                 <span class="colorpink fontfamily-light font-size-14">Als Favorit markiert</span>
                             </span>
                           </div>

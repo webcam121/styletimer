@@ -445,7 +445,7 @@
             <div class="col-12 para-wrap">
               <div class="row">
                 <div class="col-sm-12 col-md-3">
-                  <img class="para-image" style="max-height: 380px;" src="https://dev.styletimer.de/assets/uploads/staticpages/static_1599738554.jpg">
+                  <img class="para-image" style="max-height: 380px;" src="<?php echo base_url('assets/uploads/staticpages/static_1599738554.jpg')?>">
                 </div>
                 <div class="col-sm-12 col-md-9" style="display:flex; align-items:center;">
                   <p class="para-content mt-4">
@@ -464,7 +464,7 @@
                 Alle Vorteile im Überblick:
               </p>
               <div>
-              <img class="para-image" style="max-height: 350px;" src="https://dev.styletimer.de/assets/uploads/staticpages/static_1611154781.png">
+              <img class="para-image" style="max-height: 350px;" src="<?php echo base_url('assets/uploads/staticpages/static_1611154781.png')?>">
               </div>
               <br/>
             </div>

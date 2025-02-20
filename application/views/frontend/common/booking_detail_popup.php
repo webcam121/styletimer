@@ -75,9 +75,9 @@ if(!empty($booking_detail)){
       <button type="button" style="background: transparent;" class="btn" data-toggle="modal" id="#conf_close">
         <a href="javascript:void(0)" data-dismiss="modal" class="crose-btn font-size-30 color333 a_hover_333">
           <picture class="" style="width: 22px; height: 22px;">
-            <source srcset="https://dev.styletimer.de/assets/frontend/images/popup_crose_black_icon.webp" type="image/webp" class="" style="width: 22px; height: 22px;">
-            <source srcset="https://dev.styletimer.de/assets/frontend/images/popup_crose_black_icon.png" type="image/png" class="" style="width: 22px; height: 22px;">
-            <img src="https://dev.styletimer.de/assets/frontend/images/popup_crose_black_icon.png" class="" style="width: 22px; height: 22px;">
+            <source srcset="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.webp')?>" type="image/webp" class="" style="width: 22px; height: 22px;">
+            <source srcset="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.png') ?>" type="image/png" class="" style="width: 22px; height: 22px;">
+            <img src="<?php echo base_url('assets/frontend/images/popup_crose_black_icon.png') ?>" class="" style="width: 22px; height: 22px;">
           </picture>
         </a>
       </button>
@@ -133,10 +133,10 @@ if(!empty($booking_detail)){
         <?php } ?>
         <?php if($main[0]->booking_type == "guest"){ ?>
           <?php if(isset($main[0]->guestphone) && ($main[0]->guestphone!='')) { ?> 
-            <div class="mb-1"><img src="https://dev.styletimer.de/assets/frontend/images/orange-call24.svg" class="width24v mr-2"><?php echo $main[0]->guestphone; ?></div> 
+            <div class="mb-1"><img src="<?php echo base_url('assets/frontend/images/orange-call24.svg')?>" class="width24v mr-2"><?php echo $main[0]->guestphone; ?></div>
           <?php   }  ?>
           <?php if(isset($main[0]->guestemail) && ($main[0]->guestemail!='')) { ?>  
-            <div class="mb-1"><img src="https://dev.styletimer.de/assets/frontend/images/orange-envlop24.svg" class="width24v mr-2"><?php echo $main[0]->guestemail; ?></div>
+            <div class="mb-1"><img src="<?php echo base_url('assets/frontend/images/orange-envlop24.svg')?>" class="width24v mr-2"><?php echo $main[0]->guestemail; ?></div>
           <?php   }  ?>
         <?php   }  ?>     
         <?php 
